@@ -1,2 +1,6 @@
 #Para levantar contenedor/compose, ejecutar:
 docker compose up
+
+#Usuario/contraseña Airflow
+User: airflow
+Pass: airflow

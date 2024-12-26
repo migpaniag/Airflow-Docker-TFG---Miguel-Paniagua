@@ -183,3 +183,18 @@
 [2024-12-26T00:18:39.422+0000] {logging_mixin.py:190} INFO - [2024-12-26T00:18:39.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/merge_all_xml.py
 [2024-12-26T00:18:39.429+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/merge_all_xml.py
 [2024-12-26T00:18:39.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/merge_all_xml.py took 0.020 seconds
+[2024-12-26T15:07:42.712+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:07:42.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/merge_all_xml.py for tasks to queue
+[2024-12-26T15:07:42.714+0000] {logging_mixin.py:190} INFO - [2024-12-26T15:07:42.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:07:42.723+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:07:42.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/merge_all_xml.py took 0.021 seconds
+[2024-12-26T15:08:13.013+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:08:13.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/merge_all_xml.py for tasks to queue
+[2024-12-26T15:08:13.015+0000] {logging_mixin.py:190} INFO - [2024-12-26T15:08:13.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:08:13.022+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:08:13.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/merge_all_xml.py took 0.019 seconds
+[2024-12-26T15:08:43.246+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:08:43.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/merge_all_xml.py for tasks to queue
+[2024-12-26T15:08:43.247+0000] {logging_mixin.py:190} INFO - [2024-12-26T15:08:43.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:08:43.254+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/merge_all_xml.py
+[2024-12-26T15:08:43.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/merge_all_xml.py took 0.019 seconds
