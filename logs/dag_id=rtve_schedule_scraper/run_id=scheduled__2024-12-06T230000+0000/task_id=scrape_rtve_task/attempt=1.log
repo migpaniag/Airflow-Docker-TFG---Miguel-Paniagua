@@ -1,0 +1,30 @@
+[2024-12-07T11:46:13.586+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T11:46:13.593+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rtve_schedule_scraper.scrape_rtve_task scheduled__2024-12-06T23:00:00+00:00 [queued]>
+[2024-12-07T11:46:13.599+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rtve_schedule_scraper.scrape_rtve_task scheduled__2024-12-06T23:00:00+00:00 [queued]>
+[2024-12-07T11:46:13.599+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-07T11:46:13.606+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): scrape_rtve_task> on 2024-12-06 23:00:00+00:00
+[2024-12-07T11:46:13.609+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=190) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-07T11:46:13.610+0000] {standard_task_runner.py:72} INFO - Started process 194 to run task
+[2024-12-07T11:46:13.610+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'rtve_schedule_scraper', 'scrape_rtve_task', 'scheduled__2024-12-06T23:00:00+00:00', '--job-id', '2016', '--raw', '--subdir', 'DAGS_FOLDER/dag_rtve_selenium.py', '--cfg-path', '/tmp/tmpa5z6rdsz']
+[2024-12-07T11:46:13.611+0000] {standard_task_runner.py:105} INFO - Job 2016: Subtask scrape_rtve_task
+[2024-12-07T11:46:13.634+0000] {task_command.py:467} INFO - Running <TaskInstance: rtve_schedule_scraper.scrape_rtve_task scheduled__2024-12-06T23:00:00+00:00 [running]> on host b605548c7b8b
+[2024-12-07T11:46:13.677+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='rtve_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_rtve_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-06T23:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-06T23:00:00+00:00'
+[2024-12-07T11:46:13.678+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T11:46:20.759+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-07T11:46:20.760+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 1"
+[2024-12-07T11:46:22.909+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-07T11:46:22.910+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 2"
+[2024-12-07T11:46:26.085+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-07T11:46:26.086+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Teledeporte"
+[2024-12-07T11:46:28.193+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-07T11:46:28.193+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "24 horas"
+[2024-12-07T11:46:30.591+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-07T11:46:30.592+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Clan"
+[2024-12-07T11:46:30.672+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-07T11:46:30.677+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T11:46:30.678+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=rtve_schedule_scraper, task_id=scrape_rtve_task, run_id=scheduled__2024-12-06T23:00:00+00:00, execution_date=20241206T230000, start_date=20241207T114613, end_date=20241207T114630
+[2024-12-07T11:46:30.692+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T11:46:30.705+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T11:46:30.706+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

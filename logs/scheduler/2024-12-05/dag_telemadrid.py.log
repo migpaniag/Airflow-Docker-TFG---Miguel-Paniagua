@@ -1,0 +1,421 @@
+[2024-12-05T23:14:07.778+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:14:07.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:14:07.781+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:07.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:14:08.065+0000] {processor.py:925} INFO - DAG(s) 'mitele_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:14:08.156+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:14:08.170+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.170+0000] {dag.py:4180} INFO - Setting next_dagrun for mitele_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:14:08.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.409 seconds
+[2024-12-05T23:14:38.988+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:14:38.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:14:38.990+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:38.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:14:39.192+0000] {processor.py:925} INFO - DAG(s) 'mitele_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:14:39.249+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:39.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:14:39.261+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:39.260+0000] {dag.py:4180} INFO - Setting next_dagrun for mitele_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:14:39.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.285 seconds
+[2024-12-05T23:15:06.840+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:06.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:15:06.841+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:06.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:06.959+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:07.015+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.015+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.020+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.020+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.024+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.023+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.027+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.027+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.029+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.029+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.033+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.032+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.035+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.035+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:telemadrid_schedule_scraper
+[2024-12-05T23:15:07.036+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:15:07.043+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.042+0000] {dag.py:3262} INFO - Creating ORM DAG for telemadrid_schedule_scraper
+[2024-12-05T23:15:07.049+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:07.049+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:15:07.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.222 seconds
+[2024-12-05T23:15:12.532+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:12.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:15:12.534+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:12.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:12.648+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:12.656+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:12.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:15:12.671+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:12.671+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:15:12.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.155 seconds
+[2024-12-05T23:15:40.863+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:40.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:15:40.865+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:40.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:41.321+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:15:41.379+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:41.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:15:41.392+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:41.391+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:15:41.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.544 seconds
+[2024-12-05T23:17:15.432+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:17:15.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:17:15.435+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:15.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:17:15.699+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:17:15.783+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:15.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:17:15.798+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:15.798+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:17:15.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.381 seconds
+[2024-12-05T23:17:46.611+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:17:46.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:17:46.613+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:46.613+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:17:46.811+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:17:46.865+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:46.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:17:46.876+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:46.876+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:17:46.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.278 seconds
+[2024-12-05T23:18:17.444+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:18:17.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:18:17.446+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:17.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:18:17.544+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:18:17.601+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:17.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:18:17.613+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:17.613+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:18:17.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.182 seconds
+[2024-12-05T23:18:48.326+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:18:48.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:18:48.327+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:48.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:18:48.432+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:18:48.492+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:48.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:18:48.504+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:48.504+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:18:48.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.194 seconds
+[2024-12-05T23:19:19.079+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:19:19.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:19:19.081+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:19.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:19:19.186+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:19:19.249+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:19.249+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:19:19.261+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:19.261+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:19:19.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.195 seconds
+[2024-12-05T23:19:50.002+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:19:50.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:19:50.003+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:50.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:19:50.104+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:19:50.161+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:50.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:19:50.174+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:50.174+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:19:50.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.187 seconds
+[2024-12-05T23:20:20.918+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:20:20.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:20:20.920+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:20.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:20:21.024+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:20:21.082+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:21.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:20:21.093+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:21.093+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:20:21.103+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:20:51.822+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:20:51.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:20:51.824+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:51.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:20:51.926+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:20:51.983+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:51.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:20:51.994+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:51.994+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:20:52.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.186 seconds
+[2024-12-05T23:21:22.735+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:21:22.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:21:22.736+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:22.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:21:22.840+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:21:22.897+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:22.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:21:22.909+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:22.909+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:21:22.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:21:53.650+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:21:53.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:21:53.652+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:53.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:21:53.755+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:21:53.813+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:53.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:21:53.826+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:53.825+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:21:53.836+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:22:24.763+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:22:24.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:22:24.764+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:24.764+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:22:24.867+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:22:24.925+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:24.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:22:24.937+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:24.937+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:22:24.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:22:55.679+0000] {processor.py:186} INFO - Started process (PID=227) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:22:55.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:22:55.680+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:55.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:22:55.786+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:22:55.843+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:55.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:22:55.854+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:55.854+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:22:55.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.190 seconds
+[2024-12-05T23:23:26.591+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:23:26.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:23:26.593+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:26.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:23:26.694+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:23:26.752+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:26.752+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:23:26.763+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:26.763+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:23:26.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.185 seconds
+[2024-12-05T23:23:57.505+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:23:57.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:23:57.506+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:57.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:23:57.613+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:23:57.670+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:57.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:23:57.681+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:57.681+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:23:57.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.191 seconds
+[2024-12-05T23:24:28.429+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:24:28.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:24:28.430+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:28.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:24:28.532+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:24:28.590+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:28.589+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:24:28.601+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:28.601+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:24:28.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.185 seconds
+[2024-12-05T23:24:59.328+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:24:59.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:24:59.329+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:59.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:24:59.431+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:24:59.491+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:59.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:24:59.502+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:59.502+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:24:59.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:25:30.215+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:25:30.215+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:25:30.216+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:30.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:25:30.325+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:25:30.385+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:30.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:25:30.397+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:30.397+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:25:30.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.198 seconds
+[2024-12-05T23:26:01.134+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:26:01.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:26:01.135+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:01.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:26:01.242+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:26:01.302+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:01.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:26:01.313+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:01.313+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:26:01.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.194 seconds
+[2024-12-05T23:26:32.049+0000] {processor.py:186} INFO - Started process (PID=322) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:26:32.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:26:32.050+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:32.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:26:32.152+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:26:32.210+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:32.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:26:32.221+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:32.221+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:26:32.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.186 seconds
+[2024-12-05T23:27:02.947+0000] {processor.py:186} INFO - Started process (PID=335) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:27:02.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:27:02.948+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:02.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:27:03.050+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:27:03.107+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:03.107+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:27:03.119+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:03.119+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:27:03.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.185 seconds
+[2024-12-05T23:27:34.012+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:27:34.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:27:34.014+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:34.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:27:34.115+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:27:34.175+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:34.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:27:34.186+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:34.186+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:27:34.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.187 seconds
+[2024-12-05T23:28:04.927+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:28:04.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:28:04.928+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:04.928+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:28:05.031+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:28:05.090+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:05.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:28:05.101+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:05.101+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:28:05.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:28:35.841+0000] {processor.py:186} INFO - Started process (PID=374) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:28:35.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:28:35.842+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:35.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:28:35.944+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:28:36.003+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:36.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:28:36.017+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:36.017+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:28:36.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.190 seconds
+[2024-12-05T23:29:06.752+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:29:06.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:29:06.754+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:06.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:29:06.857+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:29:06.914+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:06.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:29:06.926+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:06.926+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:29:06.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:29:37.675+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:29:37.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:29:37.676+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:37.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:29:37.781+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:29:37.839+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:37.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:29:37.850+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:37.850+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:29:37.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:30:08.589+0000] {processor.py:186} INFO - Started process (PID=413) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:30:08.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:30:08.591+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:30:08.696+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:30:08.753+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:30:08.764+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.764+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:30:08.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.190 seconds
+[2024-12-05T23:30:39.491+0000] {processor.py:186} INFO - Started process (PID=426) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:30:39.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:30:39.492+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:39.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:30:39.594+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:30:39.653+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:39.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:30:39.665+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:39.665+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:30:39.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.186 seconds
+[2024-12-05T23:31:10.235+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:31:10.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:31:10.236+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:10.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:31:10.339+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:31:10.396+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:10.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:31:10.407+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:10.407+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:31:10.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.186 seconds
+[2024-12-05T23:31:41.139+0000] {processor.py:186} INFO - Started process (PID=452) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:31:41.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:31:41.141+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:41.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:31:41.244+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:31:41.303+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:41.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:31:41.314+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:41.314+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:31:41.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:32:12.052+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:32:12.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:32:12.053+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:12.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:32:12.155+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:32:12.213+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:12.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:32:12.224+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:12.224+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:32:12.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.186 seconds
+[2024-12-05T23:32:43.134+0000] {processor.py:186} INFO - Started process (PID=478) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:32:43.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:32:43.135+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:43.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:32:43.239+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:32:43.298+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:43.297+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:32:43.309+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:43.309+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:32:43.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:33:14.055+0000] {processor.py:186} INFO - Started process (PID=491) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:33:14.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:33:14.057+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:14.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:33:14.175+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:33:14.237+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:14.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:33:14.249+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:14.249+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:33:14.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.208 seconds
+[2024-12-05T23:33:44.993+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:33:44.994+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:33:44.995+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:44.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:33:45.099+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:33:45.159+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:45.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:33:45.170+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:45.170+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:33:45.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.190 seconds
+[2024-12-05T23:34:15.918+0000] {processor.py:186} INFO - Started process (PID=517) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:34:15.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:34:15.919+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:15.919+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:34:16.022+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:34:16.079+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:16.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:34:16.091+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:16.091+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:34:16.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:34:46.840+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:34:46.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:34:46.841+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:46.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:34:46.943+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:34:47.001+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:47.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:34:47.012+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:47.012+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:34:47.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.185 seconds
+[2024-12-05T23:35:17.746+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:35:17.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:35:17.747+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:17.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:35:17.853+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:35:17.912+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:17.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:35:17.923+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:17.923+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:35:17.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.191 seconds
+[2024-12-05T23:35:48.678+0000] {processor.py:186} INFO - Started process (PID=562) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:35:48.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:35:48.679+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:48.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:35:48.785+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:35:48.846+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:48.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:35:48.857+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:48.857+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:35:48.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.194 seconds
+[2024-12-05T23:36:19.596+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:36:19.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:36:19.597+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:19.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:36:19.703+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:36:19.761+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:19.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:36:19.772+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:19.772+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:36:19.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.190 seconds
+[2024-12-05T23:36:50.512+0000] {processor.py:186} INFO - Started process (PID=588) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:36:50.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:36:50.514+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:50.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:36:50.616+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:36:50.679+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:50.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:36:50.691+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:50.691+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:36:50.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.193 seconds
+[2024-12-05T23:37:21.558+0000] {processor.py:186} INFO - Started process (PID=601) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:37:21.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:37:21.559+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:21.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:37:21.672+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:37:21.735+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:21.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:37:21.747+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:21.747+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:37:21.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.204 seconds
+[2024-12-05T23:37:52.497+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:37:52.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:37:52.499+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:52.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:37:52.606+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:37:52.668+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:52.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:37:52.679+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:52.679+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:37:52.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.196 seconds
+[2024-12-05T23:38:23.418+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:38:23.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:38:23.420+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:23.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:38:23.523+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:38:23.586+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:23.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:38:23.598+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:23.598+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:38:23.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.196 seconds
+[2024-12-05T23:38:54.359+0000] {processor.py:186} INFO - Started process (PID=640) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:38:54.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:38:54.360+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:54.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:38:54.468+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:38:54.531+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:54.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:38:54.543+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:54.543+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:38:54.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.198 seconds
+[2024-12-05T23:39:25.297+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:39:25.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:39:25.299+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:25.298+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:39:25.403+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:39:25.461+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:25.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:39:25.473+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:25.472+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:39:25.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.191 seconds
+[2024-12-05T23:39:56.217+0000] {processor.py:186} INFO - Started process (PID=666) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:39:56.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:39:56.218+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:56.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:39:56.321+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:39:56.379+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:56.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:39:56.391+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:56.391+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:39:56.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.188 seconds
+[2024-12-05T23:40:27.136+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:40:27.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:40:27.137+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:27.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:40:27.238+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:40:27.295+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:27.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:40:27.307+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:27.307+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:40:27.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.185 seconds
+[2024-12-05T23:40:58.076+0000] {processor.py:186} INFO - Started process (PID=692) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:40:58.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:40:58.077+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:58.077+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:40:58.181+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:40:58.241+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:58.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:40:58.252+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:58.252+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:40:58.262+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.190 seconds
+[2024-12-05T23:41:29.007+0000] {processor.py:186} INFO - Started process (PID=705) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:41:29.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:41:29.009+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:29.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:41:29.109+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:41:29.168+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:29.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:41:29.179+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:29.179+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:41:29.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:41:59.925+0000] {processor.py:186} INFO - Started process (PID=718) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:41:59.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:41:59.926+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:59.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:42:00.031+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:42:00.091+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:00.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:42:00.103+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:00.103+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:42:00.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.192 seconds
+[2024-12-05T23:42:30.999+0000] {processor.py:186} INFO - Started process (PID=731) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:42:30.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:42:31.000+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:31.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:42:31.104+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:42:31.162+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:31.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:42:31.174+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:31.174+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:42:31.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:43:01.912+0000] {processor.py:186} INFO - Started process (PID=744) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:43:01.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:43:01.913+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:01.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:43:02.021+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:43:02.082+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:02.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:43:02.094+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:02.094+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:43:02.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.198 seconds
+[2024-12-05T23:43:32.851+0000] {processor.py:186} INFO - Started process (PID=757) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:43:32.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:43:32.852+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:32.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:43:32.955+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:43:33.014+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:33.013+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:43:33.026+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:33.025+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:43:33.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.189 seconds
+[2024-12-05T23:59:17.454+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:59:17.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:59:17.457+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:59:17.664+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:59:17.724+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:59:17.736+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.736+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:59:17.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.294 seconds
+[2024-12-05T23:59:47.821+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:59:47.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_telemadrid.py for tasks to queue
+[2024-12-05T23:59:47.823+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:47.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:59:47.923+0000] {processor.py:925} INFO - DAG(s) 'telemadrid_schedule_scraper' retrieved from /opt/airflow/dags/dag_telemadrid.py
+[2024-12-05T23:59:47.981+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:47.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:59:47.994+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:47.993+0000] {dag.py:4180} INFO - Setting next_dagrun for telemadrid_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:59:48.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_telemadrid.py took 0.186 seconds

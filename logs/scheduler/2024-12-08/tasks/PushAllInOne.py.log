@@ -1,0 +1,300 @@
+[2024-12-08T00:00:12.669+0000] {processor.py:186} INFO - Started process (PID=22031) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:00:12.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:00:12.670+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:00:12.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:00:12.712+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:00:12.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.054 seconds
+[2024-12-08T00:00:43.516+0000] {processor.py:186} INFO - Started process (PID=22046) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:00:43.517+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:00:43.518+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:00:43.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:00:43.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:00:43.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:01:14.321+0000] {processor.py:186} INFO - Started process (PID=22061) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:01:14.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:01:14.322+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:01:14.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:01:14.365+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:01:14.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:01:45.145+0000] {processor.py:186} INFO - Started process (PID=22076) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:01:45.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:01:45.147+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:01:45.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:01:45.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:01:45.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:02:15.318+0000] {processor.py:186} INFO - Started process (PID=22092) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:02:15.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:02:15.320+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:02:15.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:02:15.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:02:15.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:02:46.130+0000] {processor.py:186} INFO - Started process (PID=22108) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:02:46.131+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:02:46.132+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:02:46.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:02:46.179+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:02:46.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:03:16.940+0000] {processor.py:186} INFO - Started process (PID=22123) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:03:16.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:03:16.941+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:03:16.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:03:16.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:03:16.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:03:47.958+0000] {processor.py:186} INFO - Started process (PID=22140) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:03:47.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:03:47.959+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:03:47.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:03:47.999+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:03:48.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.052 seconds
+[2024-12-08T00:04:18.167+0000] {processor.py:186} INFO - Started process (PID=22156) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:04:18.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:04:18.168+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:04:18.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:04:18.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:04:18.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.054 seconds
+[2024-12-08T00:04:48.965+0000] {processor.py:186} INFO - Started process (PID=22171) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:04:48.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:04:48.966+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:04:48.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:04:49.015+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:04:49.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.061 seconds
+[2024-12-08T00:05:19.740+0000] {processor.py:186} INFO - Started process (PID=22186) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:05:19.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:05:19.741+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:05:19.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:05:19.783+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:05:19.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:05:50.491+0000] {processor.py:186} INFO - Started process (PID=22201) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:05:50.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:05:50.492+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:05:50.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:05:50.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:05:50.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:06:21.255+0000] {processor.py:186} INFO - Started process (PID=22216) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:06:21.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:06:21.257+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:06:21.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:06:21.301+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:06:21.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.056 seconds
+[2024-12-08T00:06:52.037+0000] {processor.py:186} INFO - Started process (PID=22232) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:06:52.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:06:52.039+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:06:52.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:06:52.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:06:52.093+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:07:22.875+0000] {processor.py:186} INFO - Started process (PID=22247) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:07:22.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:07:22.876+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:07:22.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:07:22.922+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:07:22.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:07:53.633+0000] {processor.py:186} INFO - Started process (PID=22262) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:07:53.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:07:53.635+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:07:53.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:07:53.679+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:07:53.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:08:24.393+0000] {processor.py:186} INFO - Started process (PID=22277) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:08:24.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:08:24.395+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:08:24.394+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:08:24.442+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:08:24.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:08:55.098+0000] {processor.py:186} INFO - Started process (PID=22291) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:08:55.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:08:55.100+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:08:55.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:08:55.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:08:55.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.062 seconds
+[2024-12-08T00:09:25.904+0000] {processor.py:186} INFO - Started process (PID=22306) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:09:25.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:09:25.905+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:09:25.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:09:25.947+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:09:25.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.054 seconds
+[2024-12-08T00:09:56.693+0000] {processor.py:186} INFO - Started process (PID=22321) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:09:56.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:09:56.694+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:09:56.694+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:09:56.740+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:09:56.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:10:27.469+0000] {processor.py:186} INFO - Started process (PID=22336) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:10:27.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:10:27.471+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:10:27.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:10:27.518+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:10:27.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:10:58.244+0000] {processor.py:186} INFO - Started process (PID=22357) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:10:58.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:10:58.245+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:10:58.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:10:58.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:10:58.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.061 seconds
+[2024-12-08T00:11:29.034+0000] {processor.py:186} INFO - Started process (PID=22373) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:11:29.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:11:29.036+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:11:29.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:11:29.082+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:11:29.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:11:59.957+0000] {processor.py:186} INFO - Started process (PID=22388) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:11:59.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:11:59.960+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:11:59.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:12:00.004+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:12:00.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.058 seconds
+[2024-12-08T00:12:30.747+0000] {processor.py:186} INFO - Started process (PID=22403) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:12:30.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:12:30.748+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:12:30.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:12:30.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:12:30.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:13:01.528+0000] {processor.py:186} INFO - Started process (PID=22418) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:13:01.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:13:01.530+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:13:01.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:13:01.576+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:13:01.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:13:32.304+0000] {processor.py:186} INFO - Started process (PID=22433) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:13:32.305+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:13:32.306+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:13:32.305+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:13:32.351+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:13:32.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:14:03.079+0000] {processor.py:186} INFO - Started process (PID=22448) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:14:03.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:14:03.081+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:14:03.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:14:03.127+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:14:03.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:14:33.869+0000] {processor.py:186} INFO - Started process (PID=22463) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:14:33.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:14:33.871+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:14:33.870+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:14:33.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:14:33.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:15:04.653+0000] {processor.py:186} INFO - Started process (PID=22478) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:15:04.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:15:04.654+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:15:04.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:15:04.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:15:04.704+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:15:35.427+0000] {processor.py:186} INFO - Started process (PID=22493) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:15:35.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:15:35.429+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:15:35.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:15:35.473+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:15:35.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:16:06.185+0000] {processor.py:186} INFO - Started process (PID=22508) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:16:06.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:16:06.187+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:16:06.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:16:06.230+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:16:06.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:16:36.938+0000] {processor.py:186} INFO - Started process (PID=22523) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:16:36.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:16:36.939+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:16:36.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:16:36.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:16:36.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:17:07.868+0000] {processor.py:186} INFO - Started process (PID=22538) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:17:07.868+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:17:07.869+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:17:07.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:17:07.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:17:07.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.054 seconds
+[2024-12-08T00:17:38.651+0000] {processor.py:186} INFO - Started process (PID=22553) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:17:38.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:17:38.653+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:17:38.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:17:38.704+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:17:38.711+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.064 seconds
+[2024-12-08T00:18:09.427+0000] {processor.py:186} INFO - Started process (PID=22568) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:18:09.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:18:09.428+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:18:09.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:18:09.472+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:18:09.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:18:40.214+0000] {processor.py:186} INFO - Started process (PID=22583) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:18:40.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:18:40.215+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:18:40.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:18:40.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:18:40.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.056 seconds
+[2024-12-08T00:19:10.991+0000] {processor.py:186} INFO - Started process (PID=22598) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:19:10.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:19:10.993+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:19:10.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:19:11.039+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:19:11.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.064 seconds
+[2024-12-08T00:19:41.790+0000] {processor.py:186} INFO - Started process (PID=22613) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:19:41.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:19:41.791+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:19:41.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:19:41.839+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:19:41.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:20:12.587+0000] {processor.py:186} INFO - Started process (PID=22629) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:20:12.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:20:12.589+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:20:12.589+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:20:12.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:20:12.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.054 seconds
+[2024-12-08T00:20:43.377+0000] {processor.py:186} INFO - Started process (PID=22644) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:20:43.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:20:43.378+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:20:43.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:20:43.426+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:20:43.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:21:14.163+0000] {processor.py:186} INFO - Started process (PID=22659) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:21:14.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:21:14.165+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:21:14.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:21:14.207+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:21:14.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:21:44.942+0000] {processor.py:186} INFO - Started process (PID=22674) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:21:44.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:21:44.943+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:21:44.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:21:44.990+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:21:44.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:22:15.120+0000] {processor.py:186} INFO - Started process (PID=22689) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:22:15.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:22:15.121+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:22:15.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:22:15.173+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:22:15.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.066 seconds
+[2024-12-08T00:22:45.919+0000] {processor.py:186} INFO - Started process (PID=22704) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:22:45.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:22:45.920+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:22:45.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:22:45.966+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:22:45.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.062 seconds
+[2024-12-08T00:23:16.719+0000] {processor.py:186} INFO - Started process (PID=22719) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:23:16.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:23:16.720+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:23:16.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:23:16.769+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:23:16.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.062 seconds
+[2024-12-08T00:23:47.503+0000] {processor.py:186} INFO - Started process (PID=22734) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:23:47.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:23:47.504+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:23:47.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:23:47.552+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:23:47.560+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.061 seconds
+[2024-12-08T00:24:18.285+0000] {processor.py:186} INFO - Started process (PID=22749) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:24:18.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:24:18.286+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:24:18.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:24:18.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:24:18.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:24:48.644+0000] {processor.py:186} INFO - Started process (PID=22766) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:24:48.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:24:48.645+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:24:48.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:24:48.688+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:24:48.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.056 seconds
+[2024-12-08T00:25:19.482+0000] {processor.py:186} INFO - Started process (PID=22781) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:25:19.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:25:19.483+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:25:19.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:25:19.531+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:25:19.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.060 seconds
+[2024-12-08T00:25:50.309+0000] {processor.py:186} INFO - Started process (PID=22796) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:25:50.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:25:50.310+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:25:50.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:25:50.354+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:25:50.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:26:21.159+0000] {processor.py:186} INFO - Started process (PID=22811) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:26:21.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:26:21.160+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:26:21.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:26:21.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:26:21.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.055 seconds
+[2024-12-08T00:26:52.042+0000] {processor.py:186} INFO - Started process (PID=22826) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:26:52.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:26:52.044+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:26:52.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:26:52.090+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:26:52.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:27:22.175+0000] {processor.py:186} INFO - Started process (PID=22843) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:27:22.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:27:22.177+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:27:22.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:27:22.222+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:27:22.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.058 seconds
+[2024-12-08T00:27:52.274+0000] {processor.py:186} INFO - Started process (PID=22860) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:27:52.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:27:52.276+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:27:52.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:27:52.328+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:27:52.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.066 seconds
+[2024-12-08T00:28:23.133+0000] {processor.py:186} INFO - Started process (PID=22877) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:28:23.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:28:23.135+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:28:23.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:28:23.180+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:28:23.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.059 seconds
+[2024-12-08T00:28:53.266+0000] {processor.py:186} INFO - Started process (PID=22897) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:28:53.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:28:53.267+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:28:53.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:28:53.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:28:53.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.056 seconds
+[2024-12-08T00:29:23.525+0000] {processor.py:186} INFO - Started process (PID=22916) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:29:23.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:29:23.527+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:29:23.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:29:23.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:29:23.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.057 seconds
+[2024-12-08T00:29:53.722+0000] {processor.py:186} INFO - Started process (PID=22936) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:29:53.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:29:53.723+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:29:53.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:29:53.778+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:29:53.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.067 seconds
+[2024-12-08T00:30:24.200+0000] {processor.py:186} INFO - Started process (PID=22956) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:30:24.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-08T00:30:24.202+0000] {logging_mixin.py:190} INFO - [2024-12-08T00:30:24.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:30:24.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-08T00:30:24.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.063 seconds

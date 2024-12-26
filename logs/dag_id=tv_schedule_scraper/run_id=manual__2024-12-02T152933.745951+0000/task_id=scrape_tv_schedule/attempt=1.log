@@ -1,0 +1,228 @@
+[2024-12-02T15:29:34.476+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T15:29:34.485+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tv_schedule_scraper.scrape_tv_schedule manual__2024-12-02T15:29:33.745951+00:00 [queued]>
+[2024-12-02T15:29:34.490+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tv_schedule_scraper.scrape_tv_schedule manual__2024-12-02T15:29:33.745951+00:00 [queued]>
+[2024-12-02T15:29:34.491+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-02T15:29:34.687+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_tv_schedule> on 2024-12-02 15:29:33.745951+00:00
+[2024-12-02T15:29:34.691+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=112) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-02T15:29:34.692+0000] {standard_task_runner.py:72} INFO - Started process 113 to run task
+[2024-12-02T15:29:34.692+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'tv_schedule_scraper', 'scrape_tv_schedule', 'manual__2024-12-02T15:29:33.745951+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/dag_rtve.py', '--cfg-path', '/tmp/tmpe8x4ewhf']
+[2024-12-02T15:29:34.694+0000] {standard_task_runner.py:105} INFO - Job 213: Subtask scrape_tv_schedule
+[2024-12-02T15:29:34.719+0000] {task_command.py:467} INFO - Running <TaskInstance: tv_schedule_scraper.scrape_tv_schedule manual__2024-12-02T15:29:33.745951+00:00 [running]> on host e33f824af7e9
+[2024-12-02T15:29:34.764+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tv_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_tv_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T15:29:33.745951+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T15:29:33.745951+00:00'
+[2024-12-02T15:29:34.764+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-02T15:29:39.282+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_rtve.py", line 37, in scrape_tv_schedule
+    WebDriverWait(driver, 10).until(
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/support/expected_conditions.py", line 363, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 770, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=124.0.6367.78)
+Stacktrace:
+#0 0x56028134eca7 <unknown>
+#1 0x560281025c9c <unknown>
+#2 0x560281011c63 <unknown>
+#3 0x560281011a30 <unknown>
+#4 0x56028100ff50 <unknown>
+#5 0x56028101046d <unknown>
+#6 0x560281029aa7 <unknown>
+#7 0x56028102a3e6 <unknown>
+#8 0x56028102ca51 <unknown>
+#9 0x56028102cb0c <unknown>
+#10 0x56028106ac1c <unknown>
+#11 0x56028106b305 <unknown>
+#12 0x5602810ac058 <unknown>
+#13 0x56028108cfb1 <unknown>
+#14 0x5602810a9f16 <unknown>
+#15 0x56028108cce7 <unknown>
+#16 0x56028105f6b1 <unknown>
+#17 0x5602810604c6 <unknown>
+#18 0x56028131c55a <unknown>
+#19 0x56028131f8ea <unknown>
+#20 0x56028131f393 <unknown>
+#21 0x56028131fd79 <unknown>
+#22 0x56028130cb2f <unknown>
+#23 0x560281320134 <unknown>
+#24 0x5602812f55aa <unknown>
+#25 0x56028133f459 <unknown>
+#26 0x56028133f646 <unknown>
+#27 0x56028134e193 <unknown>
+#28 0x7fb93e5f9134 <unknown>
+
+[2024-12-02T15:29:39.307+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=tv_schedule_scraper, task_id=scrape_tv_schedule, run_id=manual__2024-12-02T15:29:33.745951+00:00, execution_date=20241202T152933, start_date=20241202T152934, end_date=20241202T152939
+[2024-12-02T15:29:39.317+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-02T15:29:39.317+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 213 for task scrape_tv_schedule (Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=124.0.6367.78)
+Stacktrace:
+#0 0x56028134eca7 <unknown>
+#1 0x560281025c9c <unknown>
+#2 0x560281011c63 <unknown>
+#3 0x560281011a30 <unknown>
+#4 0x56028100ff50 <unknown>
+#5 0x56028101046d <unknown>
+#6 0x560281029aa7 <unknown>
+#7 0x56028102a3e6 <unknown>
+#8 0x56028102ca51 <unknown>
+#9 0x56028102cb0c <unknown>
+#10 0x56028106ac1c <unknown>
+#11 0x56028106b305 <unknown>
+#12 0x5602810ac058 <unknown>
+#13 0x56028108cfb1 <unknown>
+#14 0x5602810a9f16 <unknown>
+#15 0x56028108cce7 <unknown>
+#16 0x56028105f6b1 <unknown>
+#17 0x5602810604c6 <unknown>
+#18 0x56028131c55a <unknown>
+#19 0x56028131f8ea <unknown>
+#20 0x56028131f393 <unknown>
+#21 0x56028131fd79 <unknown>
+#22 0x56028130cb2f <unknown>
+#23 0x560281320134 <unknown>
+#24 0x5602812f55aa <unknown>
+#25 0x56028133f459 <unknown>
+#26 0x56028133f646 <unknown>
+#27 0x56028134e193 <unknown>
+#28 0x7fb93e5f9134 <unknown>
+; 113)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_rtve.py", line 37, in scrape_tv_schedule
+    WebDriverWait(driver, 10).until(
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 96, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/support/expected_conditions.py", line 363, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 770, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=124.0.6367.78)
+Stacktrace:
+#0 0x56028134eca7 <unknown>
+#1 0x560281025c9c <unknown>
+#2 0x560281011c63 <unknown>
+#3 0x560281011a30 <unknown>
+#4 0x56028100ff50 <unknown>
+#5 0x56028101046d <unknown>
+#6 0x560281029aa7 <unknown>
+#7 0x56028102a3e6 <unknown>
+#8 0x56028102ca51 <unknown>
+#9 0x56028102cb0c <unknown>
+#10 0x56028106ac1c <unknown>
+#11 0x56028106b305 <unknown>
+#12 0x5602810ac058 <unknown>
+#13 0x56028108cfb1 <unknown>
+#14 0x5602810a9f16 <unknown>
+#15 0x56028108cce7 <unknown>
+#16 0x56028105f6b1 <unknown>
+#17 0x5602810604c6 <unknown>
+#18 0x56028131c55a <unknown>
+#19 0x56028131f8ea <unknown>
+#20 0x56028131f393 <unknown>
+#21 0x56028131fd79 <unknown>
+#22 0x56028130cb2f <unknown>
+#23 0x560281320134 <unknown>
+#24 0x5602812f55aa <unknown>
+#25 0x56028133f459 <unknown>
+#26 0x56028133f646 <unknown>
+#27 0x56028134e193 <unknown>
+#28 0x7fb93e5f9134 <unknown>
+
+[2024-12-02T15:29:39.357+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-02T15:29:39.369+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-02T15:29:39.370+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,140 @@
+[2024-12-04T23:50:47.135+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:50:47.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:50:47.137+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:50:47.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:50:47.151+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:50:47.148+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:50:47.152+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:50:47.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.141 seconds
+[2024-12-04T23:51:17.335+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:51:17.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:51:17.357+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:17.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:51:17.366+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:17.364+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:51:17.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:51:17.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.063 seconds
+[2024-12-04T23:51:48.220+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:51:48.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:51:48.351+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:48.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:51:48.396+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:51:48.393+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:51:48.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:51:48.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.219 seconds
+[2024-12-04T23:53:08.673+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:53:08.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:53:08.688+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:08.688+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:53:08.707+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:08.702+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:53:08.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:53:08.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.085 seconds
+[2024-12-04T23:53:38.858+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:53:38.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:53:38.905+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:38.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:53:38.919+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:53:38.916+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:53:38.920+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:53:38.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.080 seconds
+[2024-12-04T23:54:41.700+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:54:41.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:54:41.720+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:54:41.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:54:41.730+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:54:41.728+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:54:41.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:54:41.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.053 seconds
+[2024-12-04T23:55:12.885+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:55:12.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:55:12.892+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:55:12.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:55:12.905+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:55:12.900+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:55:12.906+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:55:12.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.042 seconds
+[2024-12-04T23:56:22.205+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:56:22.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:56:22.208+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:22.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:56:22.218+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:22.215+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:56:22.218+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:56:22.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.030 seconds
+[2024-12-04T23:56:53.487+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:56:53.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:56:53.490+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:53.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:56:53.502+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:56:53.499+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:56:53.504+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:56:53.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.037 seconds
+[2024-12-04T23:57:23.774+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:57:23.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tasks/PushAllInOne.py for tasks to queue
+[2024-12-04T23:57:23.799+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:57:23.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:57:23.814+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:57:23.811+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/tasks/PushAllInOne.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/tasks/PushAllInOne.py", line 3, in <module>
+    from ..utilsPushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:57:23.815+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/tasks/PushAllInOne.py
+[2024-12-04T23:57:23.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tasks/PushAllInOne.py took 0.065 seconds

@@ -1,0 +1,207 @@
+[2024-12-02T16:45:15.983+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T16:45:15.991+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tv_schedule_scraper.scrape_tv_schedule manual__2024-12-02T16:42:16.336990+00:00 [queued]>
+[2024-12-02T16:45:15.996+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tv_schedule_scraper.scrape_tv_schedule manual__2024-12-02T16:42:16.336990+00:00 [queued]>
+[2024-12-02T16:45:15.996+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 3
+[2024-12-02T16:45:16.003+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_tv_schedule> on 2024-12-02 16:42:16.336990+00:00
+[2024-12-02T16:45:16.007+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=118) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-02T16:45:16.008+0000] {standard_task_runner.py:72} INFO - Started process 121 to run task
+[2024-12-02T16:45:16.008+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'tv_schedule_scraper', 'scrape_tv_schedule', 'manual__2024-12-02T16:42:16.336990+00:00', '--job-id', '313', '--raw', '--subdir', 'DAGS_FOLDER/dag_rtve.py', '--cfg-path', '/tmp/tmp0a0ka0yk']
+[2024-12-02T16:45:16.009+0000] {standard_task_runner.py:105} INFO - Job 313: Subtask scrape_tv_schedule
+[2024-12-02T16:45:16.033+0000] {task_command.py:467} INFO - Running <TaskInstance: tv_schedule_scraper.scrape_tv_schedule manual__2024-12-02T16:42:16.336990+00:00 [running]> on host c2dfb6fa46f1
+[2024-12-02T16:45:16.075+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tv_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_tv_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T16:42:16.336990+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T16:42:16.336990+00:00'
+[2024-12-02T16:45:16.075+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-02T16:45:19.724+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_rtve.py", line 41, in scrape_tv_schedule
+    ).click()
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (668, 636)
+  (Session info: chrome-headless-shell=124.0.6367.78)
+Stacktrace:
+#0 0x55bede9ebca7 <unknown>
+#1 0x55bede6c2c9c <unknown>
+#2 0x55bede70d65d <unknown>
+#3 0x55bede70bdfd <unknown>
+#4 0x55bede70a0b0 <unknown>
+#5 0x55bede7096eb <unknown>
+#6 0x55bede6fef1a <unknown>
+#7 0x55bede729f86 <unknown>
+#8 0x55bede6fe912 <unknown>
+#9 0x55bede72a132 <unknown>
+#10 0x55bede746f16 <unknown>
+#11 0x55bede729ce7 <unknown>
+#12 0x55bede6fc6b1 <unknown>
+#13 0x55bede6fd4c6 <unknown>
+#14 0x55bede9b955a <unknown>
+#15 0x55bede9bc8ea <unknown>
+#16 0x55bede9bc393 <unknown>
+#17 0x55bede9bcd79 <unknown>
+#18 0x55bede9a9b2f <unknown>
+#19 0x55bede9bd134 <unknown>
+#20 0x55bede9925aa <unknown>
+#21 0x55bede9dc459 <unknown>
+#22 0x55bede9dc646 <unknown>
+#23 0x55bede9eb193 <unknown>
+#24 0x7f2bb1043134 <unknown>
+
+[2024-12-02T16:45:19.737+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=tv_schedule_scraper, task_id=scrape_tv_schedule, run_id=manual__2024-12-02T16:42:16.336990+00:00, execution_date=20241202T164216, start_date=20241202T164515, end_date=20241202T164519
+[2024-12-02T16:45:19.745+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-02T16:45:19.745+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 313 for task scrape_tv_schedule (Message: element click intercepted: Element is not clickable at point (668, 636)
+  (Session info: chrome-headless-shell=124.0.6367.78)
+Stacktrace:
+#0 0x55bede9ebca7 <unknown>
+#1 0x55bede6c2c9c <unknown>
+#2 0x55bede70d65d <unknown>
+#3 0x55bede70bdfd <unknown>
+#4 0x55bede70a0b0 <unknown>
+#5 0x55bede7096eb <unknown>
+#6 0x55bede6fef1a <unknown>
+#7 0x55bede729f86 <unknown>
+#8 0x55bede6fe912 <unknown>
+#9 0x55bede72a132 <unknown>
+#10 0x55bede746f16 <unknown>
+#11 0x55bede729ce7 <unknown>
+#12 0x55bede6fc6b1 <unknown>
+#13 0x55bede6fd4c6 <unknown>
+#14 0x55bede9b955a <unknown>
+#15 0x55bede9bc8ea <unknown>
+#16 0x55bede9bc393 <unknown>
+#17 0x55bede9bcd79 <unknown>
+#18 0x55bede9a9b2f <unknown>
+#19 0x55bede9bd134 <unknown>
+#20 0x55bede9925aa <unknown>
+#21 0x55bede9dc459 <unknown>
+#22 0x55bede9dc646 <unknown>
+#23 0x55bede9eb193 <unknown>
+#24 0x7f2bb1043134 <unknown>
+; 121)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_rtve.py", line 41, in scrape_tv_schedule
+    ).click()
+      ^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 94, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webelement.py", line 395, in _execute
+    return self._parent.execute(command, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 384, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (668, 636)
+  (Session info: chrome-headless-shell=124.0.6367.78)
+Stacktrace:
+#0 0x55bede9ebca7 <unknown>
+#1 0x55bede6c2c9c <unknown>
+#2 0x55bede70d65d <unknown>
+#3 0x55bede70bdfd <unknown>
+#4 0x55bede70a0b0 <unknown>
+#5 0x55bede7096eb <unknown>
+#6 0x55bede6fef1a <unknown>
+#7 0x55bede729f86 <unknown>
+#8 0x55bede6fe912 <unknown>
+#9 0x55bede72a132 <unknown>
+#10 0x55bede746f16 <unknown>
+#11 0x55bede729ce7 <unknown>
+#12 0x55bede6fc6b1 <unknown>
+#13 0x55bede6fd4c6 <unknown>
+#14 0x55bede9b955a <unknown>
+#15 0x55bede9bc8ea <unknown>
+#16 0x55bede9bc393 <unknown>
+#17 0x55bede9bcd79 <unknown>
+#18 0x55bede9a9b2f <unknown>
+#19 0x55bede9bd134 <unknown>
+#20 0x55bede9925aa <unknown>
+#21 0x55bede9dc459 <unknown>
+#22 0x55bede9dc646 <unknown>
+#23 0x55bede9eb193 <unknown>
+#24 0x7f2bb1043134 <unknown>
+
+[2024-12-02T16:45:19.750+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-02T16:45:19.761+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-02T16:45:19.762+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

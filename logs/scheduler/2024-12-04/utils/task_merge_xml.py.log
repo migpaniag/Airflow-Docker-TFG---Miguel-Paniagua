@@ -1,0 +1,87 @@
+[2024-12-04T21:56:32.198+0000] {processor.py:186} INFO - Started process (PID=580) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:56:32.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:56:32.200+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:56:32.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:56:32.347+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:56:32.355+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:56:32.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:56:32.371+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:56:32.371+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:56:32.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.192 seconds
+[2024-12-04T21:57:02.510+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:57:02.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:57:02.512+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:57:02.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:57:02.636+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:57:02.643+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:57:02.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:57:02.656+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:57:02.656+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:57:02.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.159 seconds
+[2024-12-04T21:57:33.531+0000] {processor.py:186} INFO - Started process (PID=603) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:57:33.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:57:33.533+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:57:33.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:57:33.657+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:57:33.714+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:57:33.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:57:33.726+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:57:33.726+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:57:33.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.209 seconds
+[2024-12-04T21:58:04.293+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:58:04.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:58:04.295+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:58:04.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:58:04.415+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:58:04.472+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:58:04.471+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:58:04.483+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:58:04.483+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:58:04.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.203 seconds
+[2024-12-04T21:58:34.915+0000] {processor.py:186} INFO - Started process (PID=631) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:58:34.915+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:58:34.917+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:58:34.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:58:35.041+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:58:35.099+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:58:35.099+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:58:35.112+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:58:35.112+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:58:35.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.212 seconds
+[2024-12-04T21:59:05.521+0000] {processor.py:186} INFO - Started process (PID=642) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:59:05.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:59:05.523+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:59:05.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:59:05.647+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:59:05.716+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:59:05.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:59:05.729+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:59:05.728+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:59:05.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.222 seconds
+[2024-12-04T21:59:36.131+0000] {processor.py:186} INFO - Started process (PID=653) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:59:36.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T21:59:36.133+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:59:36.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:59:36.255+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T21:59:36.315+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:59:36.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T21:59:36.328+0000] {logging_mixin.py:190} INFO - [2024-12-04T21:59:36.328+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T21:59:36.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.210 seconds
+[2024-12-04T22:00:06.571+0000] {processor.py:186} INFO - Started process (PID=664) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:00:06.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T22:00:06.572+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:00:06.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:00:06.696+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:00:06.756+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:00:06.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T22:00:06.768+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:00:06.768+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T22:00:06.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.211 seconds
+[2024-12-04T22:00:37.102+0000] {processor.py:186} INFO - Started process (PID=674) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:00:37.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T22:00:37.103+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:00:37.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:00:37.243+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:00:37.308+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:00:37.307+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T22:00:37.322+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:00:37.322+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T22:00:37.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.237 seconds
+[2024-12-04T22:01:07.563+0000] {processor.py:186} INFO - Started process (PID=684) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:01:07.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T22:01:07.574+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:01:07.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:01:07.701+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:01:07.766+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:01:07.765+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-04T22:01:07.778+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:01:07.778+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-05 08:00:00+00:00, run_after=2024-12-06 08:00:00+00:00
+[2024-12-04T22:01:07.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.230 seconds
+[2024-12-04T22:01:08.822+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:01:08.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/task_merge_xml.py for tasks to queue
+[2024-12-04T22:01:08.824+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:01:08.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:01:08.839+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:01:08.834+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/task_merge_xml.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/task_merge_xml.py", line 23
+    
+    ^
+IndentationError: expected an indented block after function definition on line 22
+[2024-12-04T22:01:08.839+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/task_merge_xml.py
+[2024-12-04T22:01:08.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/task_merge_xml.py took 0.044 seconds

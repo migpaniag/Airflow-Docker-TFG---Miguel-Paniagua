@@ -1,0 +1,32 @@
+[2024-12-04T15:03:07.682+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T15:03:07.692+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule scheduled__2024-12-03T00:00:00+00:00 [queued]>
+[2024-12-04T15:03:07.698+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule scheduled__2024-12-03T00:00:00+00:00 [queued]>
+[2024-12-04T15:03:07.698+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T15:03:07.707+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_a3media_schedule> on 2024-12-03 00:00:00+00:00
+[2024-12-04T15:03:07.712+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=148) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T15:03:07.713+0000] {standard_task_runner.py:72} INFO - Started process 153 to run task
+[2024-12-04T15:03:07.713+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'a3media_schedule_scraper', 'scrape_a3media_schedule', 'scheduled__2024-12-03T00:00:00+00:00', '--job-id', '414', '--raw', '--subdir', 'DAGS_FOLDER/dag_atresmedia.py', '--cfg-path', '/tmp/tmphcn9_b2x']
+[2024-12-04T15:03:07.715+0000] {standard_task_runner.py:105} INFO - Job 414: Subtask scrape_a3media_schedule
+[2024-12-04T15:03:07.742+0000] {task_command.py:467} INFO - Running <TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule scheduled__2024-12-03T00:00:00+00:00 [running]> on host d88abb179e8d
+[2024-12-04T15:03:07.781+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='a3media_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_a3media_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-03T00:00:00+00:00'
+[2024-12-04T15:03:07.782+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T15:03:09.820+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T15:03:09.820+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Antena 3"
+[2024-12-04T15:03:12.020+0000] {logging_mixin.py:190} INFO - Error: 409 {"message": "is at a9048d669e009948aac36d2d0d46a464d60bd99f but expected c166b9cbe1f05f51a3f1b712ed8054e9e1a9ebe9", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "409"}
+[2024-12-04T15:03:12.020+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "laSexta"
+[2024-12-04T15:03:13.980+0000] {logging_mixin.py:190} INFO - Error: 409 {"message": "is at 95d73602b0eb833f4967c33e538840b0c8d67369 but expected a9048d669e009948aac36d2d0d46a464d60bd99f", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "409"}
+[2024-12-04T15:03:13.980+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Neox"
+[2024-12-04T15:03:16.123+0000] {logging_mixin.py:190} INFO - Error: 409 {"message": "is at ba8a1b543fa35500dd6e355ff24a1223ca840ded but expected 95d73602b0eb833f4967c33e538840b0c8d67369", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "409"}
+[2024-12-04T15:03:16.124+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Nova"
+[2024-12-04T15:03:18.005+0000] {logging_mixin.py:190} INFO - Error: 409 {"message": "is at 85a41ae718e20e4b70705ea310ca00c06e71c6ec but expected ba8a1b543fa35500dd6e355ff24a1223ca840ded", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "409"}
+[2024-12-04T15:03:18.006+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mega"
+[2024-12-04T15:03:19.877+0000] {logging_mixin.py:190} INFO - Error: 409 {"message": "is at e30d3160e5f0102cd3deddc5e320c076dfe8c0b6 but expected 85a41ae718e20e4b70705ea310ca00c06e71c6ec", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "409"}
+[2024-12-04T15:03:19.878+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Atreseries"
+[2024-12-04T15:03:19.879+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-04T15:03:19.885+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T15:03:19.885+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=a3media_schedule_scraper, task_id=scrape_a3media_schedule, run_id=scheduled__2024-12-03T00:00:00+00:00, execution_date=20241203T000000, start_date=20241204T150307, end_date=20241204T150319
+[2024-12-04T15:03:19.918+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T15:03:19.926+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T15:03:19.927+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

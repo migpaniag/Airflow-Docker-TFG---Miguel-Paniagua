@@ -1,0 +1,64 @@
+[2024-12-14T22:34:23.869+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-14T22:34:23.888+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mediaset_schedule_scraper.scrape_mediaset_schedule scheduled__2024-12-14T11:30:00+00:00 [queued]>
+[2024-12-14T22:34:23.896+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mediaset_schedule_scraper.scrape_mediaset_schedule scheduled__2024-12-14T11:30:00+00:00 [queued]>
+[2024-12-14T22:34:23.897+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-14T22:34:23.914+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): scrape_mediaset_schedule> on 2024-12-14 11:30:00+00:00
+[2024-12-14T22:34:23.926+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=107) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-14T22:34:23.928+0000] {standard_task_runner.py:72} INFO - Started process 125 to run task
+[2024-12-14T22:34:23.925+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'mediaset_schedule_scraper', 'scrape_mediaset_schedule', 'scheduled__2024-12-14T11:30:00+00:00', '--job-id', '2443', '--raw', '--subdir', 'DAGS_FOLDER/dag_mediaset.py', '--cfg-path', '/tmp/tmpi_4t6a5z']
+[2024-12-14T22:34:23.928+0000] {standard_task_runner.py:105} INFO - Job 2443: Subtask scrape_mediaset_schedule
+[2024-12-14T22:34:23.993+0000] {task_command.py:467} INFO - Running <TaskInstance: mediaset_schedule_scraper.scrape_mediaset_schedule scheduled__2024-12-14T11:30:00+00:00 [running]> on host b605548c7b8b
+[2024-12-14T22:34:24.131+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mediaset_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_mediaset_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-14T11:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-14T11:30:00+00:00'
+[2024-12-14T22:34:24.133+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-14T22:34:27.029+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Telecinco
+[2024-12-14T22:34:27.033+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Telecinco"
+[2024-12-14T22:34:28.777+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:28.779+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Cuatro
+[2024-12-14T22:34:28.785+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Cuatro"
+[2024-12-14T22:34:30.574+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:30.575+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh 24h plus
+[2024-12-14T22:34:30.581+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Gh 24h plus"
+[2024-12-14T22:34:33.428+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-14T22:34:33.429+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh 24h
+[2024-12-14T22:34:33.433+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Gh 24h"
+[2024-12-14T22:34:35.140+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:35.141+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele en la calle
+[2024-12-14T22:34:35.149+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele en la calle"
+[2024-12-14T22:34:37.069+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:37.070+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele viajes
+[2024-12-14T22:34:37.075+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele viajes"
+[2024-12-14T22:34:40.054+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-14T22:34:40.055+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele plus lqsa
+[2024-12-14T22:34:40.059+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele plus lqsa"
+[2024-12-14T22:34:41.737+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:41.739+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele comedia
+[2024-12-14T22:34:41.746+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele comedia"
+[2024-12-14T22:34:43.391+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:43.392+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele top series
+[2024-12-14T22:34:43.397+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele top series"
+[2024-12-14T22:34:46.478+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-14T22:34:46.479+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Divinity
+[2024-12-14T22:34:46.484+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Divinity"
+[2024-12-14T22:34:48.222+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:48.223+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fdf
+[2024-12-14T22:34:48.228+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Fdf"
+[2024-12-14T22:34:49.906+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:49.907+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Energy
+[2024-12-14T22:34:49.913+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Energy"
+[2024-12-14T22:34:51.664+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:51.665+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Bemad
+[2024-12-14T22:34:51.669+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Bemad"
+[2024-12-14T22:34:53.510+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:53.511+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Boing
+[2024-12-14T22:34:53.531+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Boing"
+[2024-12-14T22:34:55.791+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:55.792+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Acontraplus
+[2024-12-14T22:34:55.796+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Acontraplus"
+[2024-12-14T22:34:57.674+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:34:57.675+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fight sports
+[2024-12-14T22:34:57.681+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Fight sports"
+[2024-12-14T22:35:01.920+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T22:35:01.921+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mtmad 24h
+[2024-12-14T22:35:01.924+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mtmad 24h"

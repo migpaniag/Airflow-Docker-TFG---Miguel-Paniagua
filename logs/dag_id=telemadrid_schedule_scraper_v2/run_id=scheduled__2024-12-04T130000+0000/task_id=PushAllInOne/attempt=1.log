@@ -1,0 +1,105 @@
+[2024-12-06T11:54:25.319+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T11:54:25.328+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T11:54:25.333+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T11:54:25.333+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T11:54:25.340+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): PushAllInOne> on 2024-12-04 13:00:00+00:00
+[2024-12-06T11:54:25.344+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=110) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T11:54:25.345+0000] {standard_task_runner.py:72} INFO - Started process 111 to run task
+[2024-12-06T11:54:25.345+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'PushAllInOne', 'scheduled__2024-12-04T13:00:00+00:00', '--job-id', '921', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmpp9p2itqo']
+[2024-12-06T11:54:25.346+0000] {standard_task_runner.py:105} INFO - Job 921: Subtask PushAllInOne
+[2024-12-06T11:54:25.372+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [running]> on host d88abb179e8d
+[2024-12-06T11:54:25.415+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='PushAllInOne' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T13:00:00+00:00'
+[2024-12-06T11:54:25.416+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T11:54:27.975+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-06T11:54:27.976+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T11:54:27.985+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T11:54:27.986+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=PushAllInOne, run_id=scheduled__2024-12-04T13:00:00+00:00, execution_date=20241204T130000, start_date=20241206T115425, end_date=20241206T115427
+[2024-12-06T11:54:28.005+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T11:54:28.013+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T11:54:28.014+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-06T12:08:44.198+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T12:08:44.208+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:08:44.213+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:08:44.213+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T12:08:44.219+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): PushAllInOne> on 2024-12-04 13:00:00+00:00
+[2024-12-06T12:08:44.222+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=124) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T12:08:44.223+0000] {standard_task_runner.py:72} INFO - Started process 125 to run task
+[2024-12-06T12:08:44.223+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'PushAllInOne', 'scheduled__2024-12-04T13:00:00+00:00', '--job-id', '930', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmp0y4wakcl']
+[2024-12-06T12:08:44.224+0000] {standard_task_runner.py:105} INFO - Job 930: Subtask PushAllInOne
+[2024-12-06T12:08:44.248+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [running]> on host d88abb179e8d
+[2024-12-06T12:08:44.284+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='PushAllInOne' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T13:00:00+00:00'
+[2024-12-06T12:08:44.284+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T12:08:46.765+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-06T12:08:46.766+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T12:08:46.772+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T12:08:46.772+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=PushAllInOne, run_id=scheduled__2024-12-04T13:00:00+00:00, execution_date=20241204T130000, start_date=20241206T120844, end_date=20241206T120846
+[2024-12-06T12:08:46.802+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T12:08:46.811+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T12:08:46.811+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-06T12:09:24.445+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T12:09:24.454+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:09:24.458+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:09:24.458+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T12:09:24.464+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): PushAllInOne> on 2024-12-04 13:00:00+00:00
+[2024-12-06T12:09:24.467+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=140) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T12:09:24.468+0000] {standard_task_runner.py:72} INFO - Started process 141 to run task
+[2024-12-06T12:09:24.469+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'PushAllInOne', 'scheduled__2024-12-04T13:00:00+00:00', '--job-id', '933', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmpl1wa8sst']
+[2024-12-06T12:09:24.470+0000] {standard_task_runner.py:105} INFO - Job 933: Subtask PushAllInOne
+[2024-12-06T12:09:24.493+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [running]> on host d88abb179e8d
+[2024-12-06T12:09:24.529+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='PushAllInOne' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T13:00:00+00:00'
+[2024-12-06T12:09:24.530+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T12:09:26.865+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-06T12:09:26.865+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T12:09:26.871+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T12:09:26.871+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=PushAllInOne, run_id=scheduled__2024-12-04T13:00:00+00:00, execution_date=20241204T130000, start_date=20241206T120924, end_date=20241206T120926
+[2024-12-06T12:09:26.887+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T12:09:26.895+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T12:09:26.896+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-06T12:14:12.794+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T12:14:12.804+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:14:12.808+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:14:12.808+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T12:14:12.815+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): PushAllInOne> on 2024-12-04 13:00:00+00:00
+[2024-12-06T12:14:12.819+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=124) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T12:14:12.819+0000] {standard_task_runner.py:72} INFO - Started process 125 to run task
+[2024-12-06T12:14:12.820+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'PushAllInOne', 'scheduled__2024-12-04T13:00:00+00:00', '--job-id', '940', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmpmuj3mu62']
+[2024-12-06T12:14:12.821+0000] {standard_task_runner.py:105} INFO - Job 940: Subtask PushAllInOne
+[2024-12-06T12:14:12.846+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [running]> on host d88abb179e8d
+[2024-12-06T12:14:12.884+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='PushAllInOne' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T13:00:00+00:00'
+[2024-12-06T12:14:12.885+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T12:14:15.141+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-06T12:14:15.142+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T12:14:15.152+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T12:14:15.426+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=PushAllInOne, run_id=scheduled__2024-12-04T13:00:00+00:00, execution_date=20241204T130000, start_date=20241206T121412, end_date=20241206T121415
+[2024-12-06T12:14:15.440+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T12:14:15.448+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T12:14:15.449+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-06T12:57:47.479+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T12:57:47.489+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:57:47.493+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [queued]>
+[2024-12-06T12:57:47.493+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T12:57:47.500+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): PushAllInOne> on 2024-12-04 13:00:00+00:00
+[2024-12-06T12:57:47.504+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=131) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T12:57:47.505+0000] {standard_task_runner.py:72} INFO - Started process 132 to run task
+[2024-12-06T12:57:47.506+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'PushAllInOne', 'scheduled__2024-12-04T13:00:00+00:00', '--job-id', '1162', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmpiku7q1t9']
+[2024-12-06T12:57:47.507+0000] {standard_task_runner.py:105} INFO - Job 1162: Subtask PushAllInOne
+[2024-12-06T12:57:47.531+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.PushAllInOne scheduled__2024-12-04T13:00:00+00:00 [running]> on host 01ebcafa06b4
+[2024-12-06T12:57:47.569+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='PushAllInOne' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T13:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T13:00:00+00:00'
+[2024-12-06T12:57:47.570+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T12:57:49.773+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-06T12:57:49.774+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T12:57:49.779+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T12:57:49.780+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=PushAllInOne, run_id=scheduled__2024-12-04T13:00:00+00:00, execution_date=20241204T130000, start_date=20241206T125747, end_date=20241206T125749
+[2024-12-06T12:57:49.804+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T12:57:49.815+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T12:57:49.816+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

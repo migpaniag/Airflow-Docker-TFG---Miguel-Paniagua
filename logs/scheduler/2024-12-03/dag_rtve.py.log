@@ -1,0 +1,434 @@
+[2024-12-03T00:00:03.275+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:00:03.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:00:03.277+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:00:03.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:00:03.420+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:00:03.438+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:00:03.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:00:03.455+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:00:03.455+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:00:03.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.197 seconds
+[2024-12-03T00:00:33.570+0000] {processor.py:186} INFO - Started process (PID=1180) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:00:33.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:00:33.572+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:00:33.572+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:00:33.692+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:00:33.707+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:00:33.707+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:00:33.719+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:00:33.719+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:00:33.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.168 seconds
+[2024-12-03T00:01:03.892+0000] {processor.py:186} INFO - Started process (PID=1188) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:01:03.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:01:03.894+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:01:03.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:01:04.018+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:01:04.031+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:01:04.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:01:04.044+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:01:04.043+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:01:04.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:01:34.191+0000] {processor.py:186} INFO - Started process (PID=1196) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:01:34.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:01:34.194+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:01:34.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:01:34.318+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:01:34.333+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:01:34.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:01:34.345+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:01:34.345+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:01:34.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.168 seconds
+[2024-12-03T00:02:04.382+0000] {processor.py:186} INFO - Started process (PID=1204) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:02:04.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:02:04.384+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:02:04.384+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:02:04.511+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:02:04.523+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:02:04.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:02:04.535+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:02:04.535+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:02:04.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.167 seconds
+[2024-12-03T00:02:34.738+0000] {processor.py:186} INFO - Started process (PID=1212) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:02:34.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:02:34.739+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:02:34.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:02:34.861+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:02:34.874+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:02:34.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:02:34.887+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:02:34.886+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:02:34.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.161 seconds
+[2024-12-03T00:03:05.064+0000] {processor.py:186} INFO - Started process (PID=1220) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:03:05.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:03:05.066+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:03:05.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:03:05.189+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:03:05.202+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:03:05.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:03:05.216+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:03:05.216+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:03:05.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.166 seconds
+[2024-12-03T00:03:35.397+0000] {processor.py:186} INFO - Started process (PID=1228) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:03:35.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:03:35.399+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:03:35.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:03:35.519+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:03:35.532+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:03:35.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:03:35.544+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:03:35.543+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:03:35.552+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.159 seconds
+[2024-12-03T00:04:05.727+0000] {processor.py:186} INFO - Started process (PID=1236) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:04:05.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:04:05.729+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:04:05.728+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:04:05.862+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:04:05.875+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:04:05.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:04:05.887+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:04:05.887+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:04:05.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.175 seconds
+[2024-12-03T00:04:36.073+0000] {processor.py:186} INFO - Started process (PID=1243) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:04:36.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:04:36.075+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:04:36.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:04:36.196+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:04:36.210+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:04:36.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:04:36.223+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:04:36.223+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:04:36.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.163 seconds
+[2024-12-03T00:05:06.389+0000] {processor.py:186} INFO - Started process (PID=1251) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:05:06.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:05:06.391+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:05:06.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:05:06.518+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:05:06.533+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:05:06.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:05:06.548+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:05:06.547+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:05:06.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.173 seconds
+[2024-12-03T00:05:36.702+0000] {processor.py:186} INFO - Started process (PID=1259) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:05:36.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:05:36.704+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:05:36.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:05:36.829+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:05:36.843+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:05:36.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:05:36.855+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:05:36.855+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:05:36.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:06:07.016+0000] {processor.py:186} INFO - Started process (PID=1267) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:06:07.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:06:07.018+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:06:07.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:06:07.149+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:06:07.162+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:06:07.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:06:07.174+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:06:07.174+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:06:07.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.171 seconds
+[2024-12-03T00:06:37.321+0000] {processor.py:186} INFO - Started process (PID=1275) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:06:37.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:06:37.323+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:06:37.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:06:37.443+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:06:37.456+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:06:37.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:06:37.469+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:06:37.469+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:06:37.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.160 seconds
+[2024-12-03T00:07:07.687+0000] {processor.py:186} INFO - Started process (PID=1283) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:07:07.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:07:07.690+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:07:07.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:07:07.809+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:07:07.823+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:07:07.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:07:07.835+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:07:07.835+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:07:07.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.161 seconds
+[2024-12-03T00:07:37.998+0000] {processor.py:186} INFO - Started process (PID=1291) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:07:37.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:07:38.000+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:07:38.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:07:38.123+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:07:38.137+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:07:38.137+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:07:38.150+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:07:38.150+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:07:38.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:08:08.310+0000] {processor.py:186} INFO - Started process (PID=1299) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:08:08.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:08:08.312+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:08:08.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:08:08.439+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:08:08.452+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:08:08.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:08:08.464+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:08:08.464+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:08:08.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.168 seconds
+[2024-12-03T00:08:38.632+0000] {processor.py:186} INFO - Started process (PID=1307) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:08:38.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:08:38.634+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:08:38.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:08:38.753+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:08:38.767+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:08:38.767+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:08:38.779+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:08:38.779+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:08:38.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.161 seconds
+[2024-12-03T00:09:08.817+0000] {processor.py:186} INFO - Started process (PID=1315) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:09:08.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:09:08.819+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:09:08.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:09:08.946+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:09:08.960+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:09:08.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:09:08.972+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:09:08.972+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:09:08.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.167 seconds
+[2024-12-03T00:09:39.155+0000] {processor.py:186} INFO - Started process (PID=1323) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:09:39.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:09:39.157+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:09:39.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:09:39.279+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:09:39.293+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:09:39.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:09:39.305+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:09:39.305+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:09:39.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:10:09.485+0000] {processor.py:186} INFO - Started process (PID=1330) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:10:09.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:10:09.487+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:10:09.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:10:09.612+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:10:09.625+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:10:09.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:10:09.638+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:10:09.638+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:10:09.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.167 seconds
+[2024-12-03T00:10:39.811+0000] {processor.py:186} INFO - Started process (PID=1344) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:10:39.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:10:39.813+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:10:39.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:10:39.938+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:10:39.952+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:10:39.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:10:39.967+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:10:39.966+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:10:39.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.169 seconds
+[2024-12-03T00:11:10.151+0000] {processor.py:186} INFO - Started process (PID=1352) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:11:10.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:11:10.153+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:11:10.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:11:10.276+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:11:10.289+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:11:10.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:11:10.300+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:11:10.300+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:11:10.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.162 seconds
+[2024-12-03T00:11:40.491+0000] {processor.py:186} INFO - Started process (PID=1360) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:11:40.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:11:40.493+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:11:40.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:11:40.612+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:11:40.626+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:11:40.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:11:40.637+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:11:40.637+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:11:40.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.158 seconds
+[2024-12-03T00:12:10.746+0000] {processor.py:186} INFO - Started process (PID=1368) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:12:10.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:12:10.748+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:12:10.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:12:10.877+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:12:10.890+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:12:10.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:12:10.906+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:12:10.906+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:12:10.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.174 seconds
+[2024-12-03T00:12:41.110+0000] {processor.py:186} INFO - Started process (PID=1376) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:12:41.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:12:41.112+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:12:41.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:12:41.235+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:12:41.249+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:12:41.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:12:41.261+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:12:41.261+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:12:41.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:13:11.456+0000] {processor.py:186} INFO - Started process (PID=1384) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:13:11.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:13:11.458+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:13:11.458+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:13:11.615+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:13:11.628+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:13:11.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:13:11.640+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:13:11.640+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:13:11.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.430 seconds
+[2024-12-03T00:13:42.655+0000] {processor.py:186} INFO - Started process (PID=1392) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:13:42.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:13:42.657+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:13:42.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:13:42.780+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:13:42.793+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:13:42.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:13:42.805+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:13:42.805+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:13:42.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.163 seconds
+[2024-12-03T00:14:12.987+0000] {processor.py:186} INFO - Started process (PID=1400) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:14:12.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:14:12.989+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:14:12.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:14:13.150+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:14:13.163+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:14:13.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:14:13.175+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:14:13.175+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:14:13.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.204 seconds
+[2024-12-03T00:14:43.368+0000] {processor.py:186} INFO - Started process (PID=1408) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:14:43.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:14:43.370+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:14:43.370+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:14:43.492+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:14:43.505+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:14:43.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:14:43.518+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:14:43.518+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:14:43.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.163 seconds
+[2024-12-03T00:15:13.714+0000] {processor.py:186} INFO - Started process (PID=1416) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:15:13.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:15:13.716+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:15:13.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:15:13.875+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:15:13.889+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:15:13.889+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:15:13.902+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:15:13.902+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:15:13.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.202 seconds
+[2024-12-03T00:15:44.087+0000] {processor.py:186} INFO - Started process (PID=1424) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:15:44.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:15:44.089+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:15:44.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:15:44.211+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:15:44.226+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:15:44.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:15:44.240+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:15:44.239+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:15:44.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.167 seconds
+[2024-12-03T00:16:14.421+0000] {processor.py:186} INFO - Started process (PID=1432) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:16:14.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:16:14.423+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:16:14.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:16:14.577+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:16:14.590+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:16:14.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:16:14.602+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:16:14.602+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:16:14.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.194 seconds
+[2024-12-03T00:16:44.763+0000] {processor.py:186} INFO - Started process (PID=1441) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:16:44.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:16:44.765+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:16:44.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:16:44.898+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:16:44.911+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:16:44.911+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:16:44.923+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:16:44.923+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:16:44.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.173 seconds
+[2024-12-03T00:17:15.176+0000] {processor.py:186} INFO - Started process (PID=1449) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:17:15.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:17:15.178+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:17:15.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:17:15.334+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:17:15.347+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:17:15.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:17:15.359+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:17:15.359+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:17:15.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.198 seconds
+[2024-12-03T00:17:45.492+0000] {processor.py:186} INFO - Started process (PID=1457) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:17:45.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:17:45.494+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:17:45.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:17:45.616+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:17:45.630+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:17:45.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:17:45.643+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:17:45.643+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:17:45.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.164 seconds
+[2024-12-03T00:18:15.823+0000] {processor.py:186} INFO - Started process (PID=1465) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:18:15.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:18:15.826+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:18:15.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:18:15.990+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:18:16.003+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:18:16.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:18:16.015+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:18:16.015+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:18:16.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.205 seconds
+[2024-12-03T00:18:46.154+0000] {processor.py:186} INFO - Started process (PID=1473) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:18:46.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:18:46.156+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:18:46.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:18:46.280+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:18:46.294+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:18:46.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:18:46.306+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:18:46.306+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:18:46.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:19:16.461+0000] {processor.py:186} INFO - Started process (PID=1481) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:19:16.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:19:16.464+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:19:16.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:19:16.587+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:19:16.602+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:19:16.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:19:16.614+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:19:16.614+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:19:16.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.167 seconds
+[2024-12-03T00:19:46.779+0000] {processor.py:186} INFO - Started process (PID=1489) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:19:46.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:19:46.781+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:19:46.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:19:46.910+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:19:46.926+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:19:46.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:19:46.940+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:19:46.940+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:19:46.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.174 seconds
+[2024-12-03T00:20:17.123+0000] {processor.py:186} INFO - Started process (PID=1497) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:20:17.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:20:17.125+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:20:17.125+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:20:17.276+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:20:17.290+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:20:17.290+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:20:17.302+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:20:17.302+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:20:17.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.193 seconds
+[2024-12-03T00:20:47.442+0000] {processor.py:186} INFO - Started process (PID=1505) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:20:47.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:20:47.444+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:20:47.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:20:47.573+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:20:47.587+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:20:47.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:20:47.599+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:20:47.599+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:20:47.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.169 seconds
+[2024-12-03T00:21:17.783+0000] {processor.py:186} INFO - Started process (PID=1513) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:21:17.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:21:17.785+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:21:17.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:21:17.944+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:21:17.957+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:21:17.957+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:21:17.970+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:21:17.970+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:21:17.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.199 seconds
+[2024-12-03T00:21:48.096+0000] {processor.py:186} INFO - Started process (PID=1521) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:21:48.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:21:48.098+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:21:48.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:21:48.222+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:21:48.236+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:21:48.236+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:21:48.248+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:21:48.248+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:21:48.257+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.166 seconds
+[2024-12-03T00:22:18.489+0000] {processor.py:186} INFO - Started process (PID=1529) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:22:18.489+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:22:18.491+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:22:18.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:22:18.656+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:22:18.670+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:22:18.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:22:18.683+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:22:18.683+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:22:18.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.208 seconds
+[2024-12-03T00:22:48.808+0000] {processor.py:186} INFO - Started process (PID=1537) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:22:48.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:22:48.810+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:22:48.810+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:22:48.934+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:22:48.948+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:22:48.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:22:48.961+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:22:48.961+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:22:48.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.166 seconds
+[2024-12-03T00:23:19.124+0000] {processor.py:186} INFO - Started process (PID=1545) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:23:19.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:23:19.126+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:23:19.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:23:19.250+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:23:19.264+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:23:19.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:23:19.276+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:23:19.276+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:23:19.286+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:23:49.450+0000] {processor.py:186} INFO - Started process (PID=1553) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:23:49.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:23:49.452+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:23:49.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:23:49.578+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:23:49.593+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:23:49.593+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:23:49.606+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:23:49.606+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:23:49.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.170 seconds
+[2024-12-03T00:24:19.798+0000] {processor.py:186} INFO - Started process (PID=1561) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:24:19.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:24:19.800+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:24:19.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:24:19.952+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:24:19.965+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:24:19.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:24:19.978+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:24:19.977+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:24:19.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.193 seconds
+[2024-12-03T00:24:50.110+0000] {processor.py:186} INFO - Started process (PID=1569) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:24:50.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:24:50.112+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:24:50.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:24:50.230+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:24:50.244+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:24:50.244+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:24:50.257+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:24:50.257+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:24:50.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.162 seconds
+[2024-12-03T00:25:20.443+0000] {processor.py:186} INFO - Started process (PID=1577) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:25:20.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:25:20.445+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:25:20.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:25:20.603+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:25:20.617+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:25:20.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:25:20.630+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:25:20.630+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:25:20.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.199 seconds
+[2024-12-03T00:25:50.764+0000] {processor.py:186} INFO - Started process (PID=1585) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:25:50.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:25:50.767+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:25:50.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:25:50.884+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:25:50.899+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:25:50.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:25:50.910+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:25:50.910+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:25:50.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.159 seconds
+[2024-12-03T00:26:21.067+0000] {processor.py:186} INFO - Started process (PID=1594) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:26:21.067+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:26:21.069+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:26:21.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:26:21.187+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:26:21.200+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:26:21.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:26:21.212+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:26:21.212+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:26:21.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.158 seconds
+[2024-12-03T00:26:51.376+0000] {processor.py:186} INFO - Started process (PID=1602) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:26:51.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:26:51.378+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:26:51.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:26:51.502+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:26:51.516+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:26:51.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:26:51.529+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:26:51.529+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:26:51.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.166 seconds
+[2024-12-03T00:27:21.615+0000] {processor.py:186} INFO - Started process (PID=1610) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:27:21.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:27:21.617+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:27:21.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:27:21.741+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:27:21.755+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:27:21.754+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:27:21.766+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:27:21.766+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:27:21.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.164 seconds
+[2024-12-03T00:27:51.943+0000] {processor.py:186} INFO - Started process (PID=1618) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:27:51.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:27:51.945+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:27:51.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:27:52.151+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:27:52.169+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:27:52.169+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:27:52.181+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:27:52.181+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:27:52.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.251 seconds
+[2024-12-03T00:28:22.291+0000] {processor.py:186} INFO - Started process (PID=1626) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:28:22.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:28:22.293+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:28:22.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:28:22.413+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:28:22.427+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:28:22.427+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:28:22.439+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:28:22.439+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:28:22.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.161 seconds
+[2024-12-03T00:28:52.620+0000] {processor.py:186} INFO - Started process (PID=1634) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:28:52.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:28:52.622+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:28:52.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:28:52.744+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:28:52.759+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:28:52.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:28:52.775+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:28:52.775+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:28:52.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.168 seconds
+[2024-12-03T00:29:22.942+0000] {processor.py:186} INFO - Started process (PID=1642) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:29:22.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:29:22.944+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:29:22.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:29:23.067+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:29:23.082+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:29:23.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:29:23.094+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:29:23.094+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:29:23.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.165 seconds
+[2024-12-03T00:29:53.244+0000] {processor.py:186} INFO - Started process (PID=1650) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:29:53.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:29:53.247+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:29:53.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:29:53.371+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:29:53.386+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:29:53.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:29:53.399+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:29:53.398+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:29:53.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.167 seconds
+[2024-12-03T00:30:23.566+0000] {processor.py:186} INFO - Started process (PID=1659) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:30:23.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:30:23.568+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:30:23.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:30:23.694+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:30:23.706+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:30:23.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:30:23.718+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:30:23.718+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:30:23.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.166 seconds
+[2024-12-03T00:30:53.869+0000] {processor.py:186} INFO - Started process (PID=1667) to work on /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:30:53.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve.py for tasks to queue
+[2024-12-03T00:30:53.871+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:30:53.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:30:53.989+0000] {processor.py:925} INFO - DAG(s) 'rtve_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve.py
+[2024-12-03T00:30:54.002+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:30:54.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-03T00:30:54.015+0000] {logging_mixin.py:190} INFO - [2024-12-03T00:30:54.015+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_schedule_scraper to 2024-12-03 00:00:00+00:00, run_after=2024-12-04 00:00:00+00:00
+[2024-12-03T00:30:54.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve.py took 0.159 seconds

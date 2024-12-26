@@ -1,0 +1,21 @@
+[2024-12-06T14:17:45.791+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T14:17:45.799+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.MergeAllXML scheduled__2016-04-09T13:14:00+00:00 [queued]>
+[2024-12-06T14:17:45.804+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.MergeAllXML scheduled__2016-04-09T13:14:00+00:00 [queued]>
+[2024-12-06T14:17:45.804+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T14:17:45.811+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): MergeAllXML> on 2016-04-09 13:14:00+00:00
+[2024-12-06T14:17:45.815+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1075) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T14:17:45.816+0000] {standard_task_runner.py:72} INFO - Started process 1076 to run task
+[2024-12-06T14:17:45.816+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'MergeAllXML', 'scheduled__2016-04-09T13:14:00+00:00', '--job-id', '1511', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmpqxvslnrw']
+[2024-12-06T14:17:45.818+0000] {standard_task_runner.py:105} INFO - Job 1511: Subtask MergeAllXML
+[2024-12-06T14:17:45.842+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.MergeAllXML scheduled__2016-04-09T13:14:00+00:00 [running]> on host 6b4257da02f0
+[2024-12-06T14:17:45.883+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='MergeAllXML' AIRFLOW_CTX_EXECUTION_DATE='2016-04-09T13:14:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-04-09T13:14:00+00:00'
+[2024-12-06T14:17:45.884+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T14:17:45.996+0000] {logging_mixin.py:190} INFO - [INFO] Generado el archivo "all_in_one.xml"
+[2024-12-06T14:17:45.998+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T14:17:46.004+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T14:17:46.004+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=MergeAllXML, run_id=scheduled__2016-04-09T13:14:00+00:00, execution_date=20160409T131400, start_date=20241206T141745, end_date=20241206T141746
+[2024-12-06T14:17:46.030+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T14:17:46.041+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T14:17:46.044+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

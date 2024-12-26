@@ -1,0 +1,115 @@
+[2024-12-04T12:38:26.098+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T12:38:26.107+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rtve_schedule_scraper_v2.scrape_rtve_schedule_v2 scheduled__2024-12-02T00:00:00+00:00 [queued]>
+[2024-12-04T12:38:26.112+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rtve_schedule_scraper_v2.scrape_rtve_schedule_v2 scheduled__2024-12-02T00:00:00+00:00 [queued]>
+[2024-12-04T12:38:26.112+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T12:38:26.120+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_rtve_schedule_v2> on 2024-12-02 00:00:00+00:00
+[2024-12-04T12:38:26.124+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=116) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T12:38:26.125+0000] {standard_task_runner.py:72} INFO - Started process 120 to run task
+[2024-12-04T12:38:26.125+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'rtve_schedule_scraper_v2', 'scrape_rtve_schedule_v2', 'scheduled__2024-12-02T00:00:00+00:00', '--job-id', '406', '--raw', '--subdir', 'DAGS_FOLDER/dag_rtvev2.py', '--cfg-path', '/tmp/tmplzf48id0']
+[2024-12-04T12:38:26.127+0000] {standard_task_runner.py:105} INFO - Job 406: Subtask scrape_rtve_schedule_v2
+[2024-12-04T12:38:26.153+0000] {task_command.py:467} INFO - Running <TaskInstance: rtve_schedule_scraper_v2.scrape_rtve_schedule_v2 scheduled__2024-12-02T00:00:00+00:00 [running]> on host d88abb179e8d
+[2024-12-04T12:38:26.200+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='rtve_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='scrape_rtve_schedule_v2' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-02T00:00:00+00:00'
+[2024-12-04T12:38:26.201+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T12:38:29.488+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-04T12:38:29.488+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 1"
+[2024-12-04T12:38:32.654+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-04T12:38:32.655+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 2"
+[2024-12-04T12:38:34.374+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="beced6364e7abcf6d7dea190368123dd5769ddc4"), 'content': ContentFile(path="channels/Teledeporte.xml")}
+[2024-12-04T12:38:34.375+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Teledeporte"
+[2024-12-04T12:38:36.173+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="83fca0f426dc7e56a83f9266c1302d022425b86d"), 'content': ContentFile(path="channels/24 horas.xml")}
+[2024-12-04T12:38:36.173+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "24 horas"
+[2024-12-04T12:38:37.793+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="0ae30094a1c1f29d3c7dd3250c36f7f91adae8c7"), 'content': ContentFile(path="channels/Clan.xml")}
+[2024-12-04T12:38:37.794+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Clan"
+[2024-12-04T12:38:37.794+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_rtvev2.py", line 87, in scrape_rtve_schedule
+    driver.quit()
+    ^^^^^^
+NameError: name 'driver' is not defined
+[2024-12-04T12:38:37.802+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=rtve_schedule_scraper_v2, task_id=scrape_rtve_schedule_v2, run_id=scheduled__2024-12-02T00:00:00+00:00, execution_date=20241202T000000, start_date=20241204T123826, end_date=20241204T123837
+[2024-12-04T12:38:37.810+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T12:38:37.810+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 406 for task scrape_rtve_schedule_v2 (name 'driver' is not defined; 120)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_rtvev2.py", line 87, in scrape_rtve_schedule
+    driver.quit()
+    ^^^^^^
+NameError: name 'driver' is not defined
+[2024-12-04T12:38:37.853+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-12-04T12:38:37.863+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T12:38:37.864+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

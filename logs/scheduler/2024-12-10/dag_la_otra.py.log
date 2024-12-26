@@ -1,0 +1,406 @@
+[2024-12-10T00:00:19.740+0000] {processor.py:186} INFO - Started process (PID=16192) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:00:19.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:00:19.742+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:00:19.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:00:19.932+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:00:19.944+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:00:19.944+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:00:19.957+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:00:19.956+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:00:19.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.228 seconds
+[2024-12-10T00:00:50.882+0000] {processor.py:186} INFO - Started process (PID=16207) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:00:50.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:00:50.885+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:00:50.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:00:51.070+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:00:51.081+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:00:51.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:00:51.093+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:00:51.092+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:00:51.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.223 seconds
+[2024-12-10T00:01:21.194+0000] {processor.py:186} INFO - Started process (PID=16222) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:01:21.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:01:21.196+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:01:21.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:01:21.381+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:01:21.392+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:01:21.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:01:21.404+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:01:21.403+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:01:21.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.222 seconds
+[2024-12-10T00:01:51.475+0000] {processor.py:186} INFO - Started process (PID=16236) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:01:51.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:01:51.477+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:01:51.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:01:51.661+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:01:51.674+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:01:51.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:01:51.687+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:01:51.687+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:01:51.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.228 seconds
+[2024-12-10T00:02:21.787+0000] {processor.py:186} INFO - Started process (PID=16251) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:02:21.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:02:21.789+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:02:21.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:02:21.990+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:02:22.002+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:02:22.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:02:22.013+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:02:22.013+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:02:22.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.240 seconds
+[2024-12-10T00:02:52.132+0000] {processor.py:186} INFO - Started process (PID=16266) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:02:52.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:02:52.134+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:02:52.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:02:52.326+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:02:52.339+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:02:52.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:02:52.352+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:02:52.351+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:02:52.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.231 seconds
+[2024-12-10T00:03:22.610+0000] {processor.py:186} INFO - Started process (PID=16281) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:03:22.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:03:22.612+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:03:22.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:03:22.801+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:03:22.814+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:03:22.814+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:03:22.827+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:03:22.827+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:03:22.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.230 seconds
+[2024-12-10T00:03:53.042+0000] {processor.py:186} INFO - Started process (PID=16296) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:03:53.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:03:53.044+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:03:53.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:03:53.242+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:03:53.255+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:03:53.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:03:53.266+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:03:53.266+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:03:53.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.238 seconds
+[2024-12-10T00:04:23.318+0000] {processor.py:186} INFO - Started process (PID=16311) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:04:23.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:04:23.320+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:04:23.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:04:23.508+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:04:23.520+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:04:23.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:04:23.532+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:04:23.532+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:04:23.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.226 seconds
+[2024-12-10T00:04:53.783+0000] {processor.py:186} INFO - Started process (PID=16326) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:04:53.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:04:53.785+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:04:53.785+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:04:53.975+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:04:53.987+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:04:53.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:04:53.999+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:04:53.999+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:04:54.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.229 seconds
+[2024-12-10T00:05:24.337+0000] {processor.py:186} INFO - Started process (PID=16342) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:05:24.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:05:24.339+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:05:24.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:05:24.527+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:05:24.540+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:05:24.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:05:24.552+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:05:24.552+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:05:24.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.228 seconds
+[2024-12-10T00:05:54.724+0000] {processor.py:186} INFO - Started process (PID=16357) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:05:54.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:05:54.726+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:05:54.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:05:54.909+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:05:54.921+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:05:54.920+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:05:54.933+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:05:54.933+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:05:54.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.226 seconds
+[2024-12-10T00:06:24.991+0000] {processor.py:186} INFO - Started process (PID=16371) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:06:24.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:06:24.993+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:06:24.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:06:25.189+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:06:25.202+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:06:25.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:06:25.215+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:06:25.215+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:06:25.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.237 seconds
+[2024-12-10T00:06:55.485+0000] {processor.py:186} INFO - Started process (PID=16387) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:06:55.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:06:55.487+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:06:55.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:06:55.669+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:06:55.681+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:06:55.681+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:06:55.693+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:06:55.693+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:06:55.701+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.219 seconds
+[2024-12-10T00:07:25.793+0000] {processor.py:186} INFO - Started process (PID=16402) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:07:25.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:07:25.795+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:07:25.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:07:25.901+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:07:25.918+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:07:25.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:07:25.933+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:07:25.933+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:07:25.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.155 seconds
+[2024-12-10T00:07:56.682+0000] {processor.py:186} INFO - Started process (PID=16417) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:07:56.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:07:56.684+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:07:56.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:07:56.791+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:07:56.805+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:07:56.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:07:56.819+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:07:56.819+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:07:56.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.152 seconds
+[2024-12-10T00:08:27.585+0000] {processor.py:186} INFO - Started process (PID=16432) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:08:27.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:08:27.587+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:08:27.587+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:08:27.693+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:08:27.706+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:08:27.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:08:27.720+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:08:27.720+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:08:27.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:08:58.532+0000] {processor.py:186} INFO - Started process (PID=16447) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:08:58.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:08:58.534+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:08:58.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:08:58.638+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:08:58.651+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:08:58.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:08:58.665+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:08:58.665+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:08:58.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.149 seconds
+[2024-12-10T00:09:29.416+0000] {processor.py:186} INFO - Started process (PID=16462) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:09:29.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:09:29.418+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:09:29.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:09:29.519+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:09:29.532+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:09:29.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:09:29.547+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:09:29.547+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:09:29.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.145 seconds
+[2024-12-10T00:10:00.308+0000] {processor.py:186} INFO - Started process (PID=16477) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:10:00.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:10:00.310+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:10:00.310+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:10:00.418+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:10:00.430+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:10:00.430+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:10:00.444+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:10:00.444+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:10:00.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.151 seconds
+[2024-12-10T00:10:31.181+0000] {processor.py:186} INFO - Started process (PID=16492) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:10:31.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:10:31.183+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:10:31.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:10:31.286+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:10:31.301+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:10:31.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:10:31.316+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:10:31.316+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:10:31.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:11:02.067+0000] {processor.py:186} INFO - Started process (PID=16508) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:11:02.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:11:02.069+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:11:02.069+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:11:02.175+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:11:02.187+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:11:02.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:11:02.201+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:11:02.201+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:11:02.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.151 seconds
+[2024-12-10T00:11:32.957+0000] {processor.py:186} INFO - Started process (PID=16522) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:11:32.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:11:32.959+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:11:32.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:11:33.062+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:11:33.076+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:11:33.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:11:33.089+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:11:33.089+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:11:33.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.148 seconds
+[2024-12-10T00:12:03.839+0000] {processor.py:186} INFO - Started process (PID=16537) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:12:03.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:12:03.841+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:12:03.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:12:03.948+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:12:03.961+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:12:03.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:12:03.975+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:12:03.975+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:12:03.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.149 seconds
+[2024-12-10T00:12:34.869+0000] {processor.py:186} INFO - Started process (PID=16552) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:12:34.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:12:34.871+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:12:34.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:12:34.977+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:12:34.991+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:12:34.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:12:35.004+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:12:35.004+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:12:35.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.150 seconds
+[2024-12-10T00:13:05.758+0000] {processor.py:186} INFO - Started process (PID=16567) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:13:05.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:13:05.760+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:13:05.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:13:05.862+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:13:05.875+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:13:05.875+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:13:05.888+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:13:05.888+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:13:05.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.144 seconds
+[2024-12-10T00:13:36.650+0000] {processor.py:186} INFO - Started process (PID=16582) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:13:36.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:13:36.652+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:13:36.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:13:36.760+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:13:36.772+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:13:36.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:13:36.786+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:13:36.786+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:13:36.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.153 seconds
+[2024-12-10T00:14:07.561+0000] {processor.py:186} INFO - Started process (PID=16597) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:14:07.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:14:07.563+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:14:07.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:14:07.664+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:14:07.677+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:14:07.677+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:14:07.690+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:14:07.690+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:14:07.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.141 seconds
+[2024-12-10T00:14:38.446+0000] {processor.py:186} INFO - Started process (PID=16612) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:14:38.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:14:38.448+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:14:38.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:14:38.548+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:14:38.561+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:14:38.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:14:38.575+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:14:38.575+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:14:38.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.143 seconds
+[2024-12-10T00:15:09.338+0000] {processor.py:186} INFO - Started process (PID=16627) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:15:09.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:15:09.340+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:15:09.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:15:09.445+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:15:09.458+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:15:09.458+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:15:09.472+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:15:09.472+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:15:09.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:15:40.224+0000] {processor.py:186} INFO - Started process (PID=16642) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:15:40.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:15:40.226+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:15:40.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:15:40.327+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:15:40.340+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:15:40.340+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:15:40.355+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:15:40.355+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:15:40.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.145 seconds
+[2024-12-10T00:16:11.105+0000] {processor.py:186} INFO - Started process (PID=16657) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:16:11.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:16:11.107+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:16:11.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:16:11.208+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:16:11.222+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:16:11.222+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:16:11.237+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:16:11.236+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:16:11.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.146 seconds
+[2024-12-10T00:16:42.000+0000] {processor.py:186} INFO - Started process (PID=16672) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:16:42.001+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:16:42.002+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:16:42.002+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:16:42.103+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:16:42.118+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:16:42.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:16:42.132+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:16:42.131+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:16:42.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.146 seconds
+[2024-12-10T00:17:13.055+0000] {processor.py:186} INFO - Started process (PID=16687) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:17:13.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:17:13.057+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:17:13.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:17:13.157+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:17:13.172+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:17:13.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:17:13.186+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:17:13.186+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:17:13.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.144 seconds
+[2024-12-10T00:17:43.937+0000] {processor.py:186} INFO - Started process (PID=16702) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:17:43.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:17:43.939+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:17:43.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:17:44.042+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:17:44.057+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:17:44.057+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:17:44.072+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:17:44.072+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:17:44.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.150 seconds
+[2024-12-10T00:18:14.822+0000] {processor.py:186} INFO - Started process (PID=16717) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:18:14.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:18:14.824+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:18:14.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:18:14.936+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:18:14.960+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:18:14.960+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:18:14.986+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:18:14.986+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:18:15.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.191 seconds
+[2024-12-10T00:18:45.766+0000] {processor.py:186} INFO - Started process (PID=16732) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:18:45.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:18:45.768+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:18:45.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:18:45.873+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:18:45.888+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:18:45.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:18:45.902+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:18:45.902+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:18:45.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.151 seconds
+[2024-12-10T00:19:16.645+0000] {processor.py:186} INFO - Started process (PID=16747) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:19:16.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:19:16.647+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:19:16.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:19:16.751+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:19:16.766+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:19:16.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:19:16.780+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:19:16.780+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:19:16.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:19:47.519+0000] {processor.py:186} INFO - Started process (PID=16762) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:19:47.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:19:47.521+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:19:47.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:19:47.624+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:19:47.639+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:19:47.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:19:47.653+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:19:47.653+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:19:47.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.150 seconds
+[2024-12-10T00:20:18.420+0000] {processor.py:186} INFO - Started process (PID=16777) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:20:18.421+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:20:18.422+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:20:18.422+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:20:18.526+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:20:18.540+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:20:18.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:20:18.552+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:20:18.552+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:20:18.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.146 seconds
+[2024-12-10T00:20:49.319+0000] {processor.py:186} INFO - Started process (PID=16792) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:20:49.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:20:49.321+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:20:49.320+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:20:49.423+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:20:49.437+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:20:49.437+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:20:49.450+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:20:49.450+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:20:49.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.148 seconds
+[2024-12-10T00:21:20.216+0000] {processor.py:186} INFO - Started process (PID=16813) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:21:20.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:21:20.218+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:21:20.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:21:20.320+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:21:20.332+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:21:20.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:21:20.345+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:21:20.345+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:21:20.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.142 seconds
+[2024-12-10T00:21:51.094+0000] {processor.py:186} INFO - Started process (PID=16828) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:21:51.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:21:51.096+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:21:51.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:21:51.196+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:21:51.209+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:21:51.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:21:51.222+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:21:51.222+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:21:51.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.141 seconds
+[2024-12-10T00:22:21.353+0000] {processor.py:186} INFO - Started process (PID=16843) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:22:21.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:22:21.355+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:22:21.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:22:21.459+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:22:21.473+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:22:21.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:22:21.486+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:22:21.486+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:22:21.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:22:52.228+0000] {processor.py:186} INFO - Started process (PID=16858) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:22:52.229+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:22:52.230+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:22:52.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:22:52.336+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:22:52.350+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:22:52.349+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:22:52.364+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:22:52.364+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:22:52.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.150 seconds
+[2024-12-10T00:23:23.112+0000] {processor.py:186} INFO - Started process (PID=16873) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:23:23.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:23:23.114+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:23:23.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:23:23.217+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:23:23.230+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:23:23.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:23:23.244+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:23:23.244+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:23:23.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.144 seconds
+[2024-12-10T00:23:53.977+0000] {processor.py:186} INFO - Started process (PID=16888) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:23:53.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:23:53.979+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:23:53.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:23:54.079+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:23:54.093+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:23:54.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:23:54.106+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:23:54.106+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:23:54.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.152 seconds
+[2024-12-10T00:24:24.855+0000] {processor.py:186} INFO - Started process (PID=16903) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:24:24.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:24:24.857+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:24:24.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:24:24.962+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:24:24.975+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:24:24.975+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:24:24.989+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:24:24.989+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:24:25.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.149 seconds
+[2024-12-10T00:24:55.742+0000] {processor.py:186} INFO - Started process (PID=16918) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:24:55.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:24:55.744+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:24:55.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:24:55.847+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:24:55.860+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:24:55.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:24:55.873+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:24:55.873+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:24:55.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.145 seconds
+[2024-12-10T00:25:26.623+0000] {processor.py:186} INFO - Started process (PID=16933) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:25:26.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:25:26.625+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:25:26.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:25:26.730+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:25:26.745+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:25:26.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:25:26.759+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:25:26.759+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:25:26.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.149 seconds
+[2024-12-10T00:25:57.524+0000] {processor.py:186} INFO - Started process (PID=16948) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:25:57.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:25:57.526+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:25:57.526+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:25:57.630+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:25:57.644+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:25:57.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:25:57.657+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:25:57.657+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:25:57.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:26:28.414+0000] {processor.py:186} INFO - Started process (PID=16963) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:26:28.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:26:28.416+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:26:28.416+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:26:28.521+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:26:28.533+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:26:28.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:26:28.546+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:26:28.546+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:26:28.556+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.145 seconds
+[2024-12-10T00:26:59.340+0000] {processor.py:186} INFO - Started process (PID=16978) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:26:59.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:26:59.342+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:26:59.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:26:59.445+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:26:59.458+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:26:59.458+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:26:59.472+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:26:59.472+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:26:59.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.147 seconds
+[2024-12-10T00:27:30.390+0000] {processor.py:186} INFO - Started process (PID=16993) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:27:30.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:27:30.392+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:27:30.392+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:27:30.495+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:27:30.510+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:27:30.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:27:30.524+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:27:30.524+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:27:30.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.166 seconds
+[2024-12-10T00:28:01.312+0000] {processor.py:186} INFO - Started process (PID=17008) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:28:01.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:28:01.314+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:28:01.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:28:01.416+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:28:01.429+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:28:01.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:28:01.442+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:28:01.442+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:28:01.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.143 seconds
+[2024-12-10T00:28:32.196+0000] {processor.py:186} INFO - Started process (PID=17023) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:28:32.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:28:32.198+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:28:32.198+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:28:32.298+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:28:32.312+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:28:32.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:28:32.326+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:28:32.326+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:28:32.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.144 seconds
+[2024-12-10T00:29:03.075+0000] {processor.py:186} INFO - Started process (PID=17038) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:29:03.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:29:03.076+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:29:03.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:29:03.181+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:29:03.193+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:29:03.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:29:03.206+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:29:03.206+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:29:03.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.144 seconds
+[2024-12-10T00:29:33.961+0000] {processor.py:186} INFO - Started process (PID=17053) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:29:33.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-10T00:29:33.963+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:29:33.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:29:34.064+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-10T00:29:34.076+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:29:34.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-10T00:29:34.091+0000] {logging_mixin.py:190} INFO - [2024-12-10T00:29:34.091+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-09 23:30:00+00:00, run_after=2024-12-10 05:30:00+00:00
+[2024-12-10T00:29:34.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.144 seconds

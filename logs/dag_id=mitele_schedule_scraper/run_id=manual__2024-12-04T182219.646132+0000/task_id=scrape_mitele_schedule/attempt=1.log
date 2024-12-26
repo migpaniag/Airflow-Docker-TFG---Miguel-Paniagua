@@ -1,0 +1,86 @@
+[2024-12-04T18:22:21.058+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T18:22:21.066+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mitele_schedule_scraper.scrape_mitele_schedule manual__2024-12-04T18:22:19.646132+00:00 [queued]>
+[2024-12-04T18:22:21.071+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mitele_schedule_scraper.scrape_mitele_schedule manual__2024-12-04T18:22:19.646132+00:00 [queued]>
+[2024-12-04T18:22:21.071+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T18:22:21.264+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_mitele_schedule> on 2024-12-04 18:22:19.646132+00:00
+[2024-12-04T18:22:21.271+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=105) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T18:22:21.273+0000] {standard_task_runner.py:72} INFO - Started process 106 to run task
+[2024-12-04T18:22:21.272+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'mitele_schedule_scraper', 'scrape_mitele_schedule', 'manual__2024-12-04T18:22:19.646132+00:00', '--job-id', '450', '--raw', '--subdir', 'DAGS_FOLDER/dag_mitele.py', '--cfg-path', '/tmp/tmpvwsyatlg']
+[2024-12-04T18:22:21.273+0000] {standard_task_runner.py:105} INFO - Job 450: Subtask scrape_mitele_schedule
+[2024-12-04T18:22:21.298+0000] {task_command.py:467} INFO - Running <TaskInstance: mitele_schedule_scraper.scrape_mitele_schedule manual__2024-12-04T18:22:19.646132+00:00 [running]> on host d88abb179e8d
+[2024-12-04T18:22:21.341+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mitele_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_mitele_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T18:22:19.646132+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-04T18:22:19.646132+00:00'
+[2024-12-04T18:22:21.342+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T18:22:27.226+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Telecinco
+[2024-12-04T18:22:27.230+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Telecinco"
+[2024-12-04T18:22:28.962+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="5921febb6ecf7aa1fbfa29c16b97c40657a002b0"), 'content': ContentFile(path="channels/Telecinco.xml")}
+[2024-12-04T18:22:28.963+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Cuatro
+[2024-12-04T18:22:28.966+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Cuatro"
+[2024-12-04T18:22:30.627+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="7107e7b9f7e6ccc27604683a716fe898ea07ed51"), 'content': ContentFile(path="channels/Cuatro.xml")}
+[2024-12-04T18:22:30.627+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh-24h-plus
+[2024-12-04T18:22:30.630+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Gh-24h-plus"
+[2024-12-04T18:22:32.429+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="d5873f3c11c1686f2417c4780d3158bf6742d01c"), 'content': ContentFile(path="channels/Gh-24h-plus.xml")}
+[2024-12-04T18:22:32.429+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh-24h
+[2024-12-04T18:22:32.432+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Gh-24h"
+[2024-12-04T18:22:34.194+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="5605de24aa5f4768065d52fc7dc5468810213790"), 'content': ContentFile(path="channels/Gh-24h.xml")}
+[2024-12-04T18:22:34.194+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele-en-la-calle
+[2024-12-04T18:22:34.197+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele-en-la-calle"
+[2024-12-04T18:22:36.009+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="55d4d44e72e933c5d324c53b7ca683b25f1666c3"), 'content': ContentFile(path="channels/Mitele-en-la-calle.xml")}
+[2024-12-04T18:22:36.010+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele-viajes
+[2024-12-04T18:22:36.014+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele-viajes"
+[2024-12-04T18:22:37.783+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="d16de66cde43bebea7406b86fc73f848588fac72"), 'content': ContentFile(path="channels/Mitele-viajes.xml")}
+[2024-12-04T18:22:37.783+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele-plus-lqsa
+[2024-12-04T18:22:37.787+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele-plus-lqsa"
+[2024-12-04T18:22:39.551+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="602ce68e57f8ab5dd00008c98e040df46bb3e7c3"), 'content': ContentFile(path="channels/Mitele-plus-lqsa.xml")}
+[2024-12-04T18:22:39.552+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele-comedia
+[2024-12-04T18:22:39.556+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele-comedia"
+[2024-12-04T18:22:41.385+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="ec632d7138584495a1efe4e3267ead012adee101"), 'content': ContentFile(path="channels/Mitele-comedia.xml")}
+[2024-12-04T18:22:41.386+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele-top-series
+[2024-12-04T18:22:41.390+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele-top-series"
+[2024-12-04T18:22:43.174+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="e24efe288389749ffb760f8a037516c4958f29e0"), 'content': ContentFile(path="channels/Mitele-top-series.xml")}
+[2024-12-04T18:22:43.175+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Divinity
+[2024-12-04T18:22:43.179+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Divinity"
+[2024-12-04T18:22:45.072+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="b6de3a4fc4a65f07436579b02f1a60bd76c6bfd5"), 'content': ContentFile(path="channels/Divinity.xml")}
+[2024-12-04T18:22:45.072+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fdf
+[2024-12-04T18:22:45.076+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Fdf"
+[2024-12-04T18:22:46.878+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="aa5cb2ed43e716db706784711f522fa38c52bea2"), 'content': ContentFile(path="channels/Fdf.xml")}
+[2024-12-04T18:22:46.879+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Energy
+[2024-12-04T18:22:46.885+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Energy"
+[2024-12-04T18:22:48.729+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="6e16bd525004477f3ef0232bf824d25b836424a6"), 'content': ContentFile(path="channels/Energy.xml")}
+[2024-12-04T18:22:48.730+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Bemad
+[2024-12-04T18:22:48.734+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Bemad"
+[2024-12-04T18:22:50.498+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="8d4318616c5d929d1d8e683c023e314d73c1edfa"), 'content': ContentFile(path="channels/Bemad.xml")}
+[2024-12-04T18:22:50.498+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Boing
+[2024-12-04T18:22:50.504+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Boing"
+[2024-12-04T18:22:52.664+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="16028f7fe083661478e1538d3137ab5f50239580"), 'content': ContentFile(path="channels/Boing.xml")}
+[2024-12-04T18:22:52.810+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Acontraplus
+[2024-12-04T18:22:52.813+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Acontraplus"
+[2024-12-04T18:22:54.655+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="db868c47da077d59ec22e88cec899d1f904ec1ab"), 'content': ContentFile(path="channels/Acontraplus.xml")}
+[2024-12-04T18:22:54.655+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fight-sports
+[2024-12-04T18:22:54.660+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Fight-sports"
+[2024-12-04T18:22:56.465+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="a5b24b335ab325f80fa83c9e11a133c4ef48f72b"), 'content': ContentFile(path="channels/Fight-sports.xml")}
+[2024-12-04T18:22:56.466+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mtmad-24h
+[2024-12-04T18:22:56.468+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mtmad-24h"
+[2024-12-04T18:22:58.211+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="f59b330c56856f460c6a9f8122b2f08c99909c94"), 'content': ContentFile(path="channels/Mtmad-24h.xml")}
+[2024-12-04T18:22:58.212+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Informativos-directo
+[2024-12-04T18:22:58.214+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Informativos-directo"
+[2024-12-04T18:22:59.921+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="6de86c6873cfdd309283ac3a57ef58d2789a4d30"), 'content': ContentFile(path="channels/Informativos-directo.xml")}
+[2024-12-04T18:22:59.922+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Bemad-digital-hbbtv
+[2024-12-04T18:22:59.925+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Bemad-digital-hbbtv"
+[2024-12-04T18:23:01.635+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="c48539126b922347b250c0ac9795fca41370613c"), 'content': ContentFile(path="channels/Bemad-digital-hbbtv.xml")}
+[2024-12-04T18:23:01.636+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Nius1
+[2024-12-04T18:23:01.639+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Nius1"
+[2024-12-04T18:23:03.403+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="dc82c771c10ebb7d65b10cadfb575d6aaee49b7d"), 'content': ContentFile(path="channels/Nius1.xml")}
+[2024-12-04T18:23:03.404+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Nius2
+[2024-12-04T18:23:03.406+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Nius2"
+[2024-12-04T18:23:05.253+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="c82fb368970e9d57c2c3c0fef1f5d8afadb7642d"), 'content': ContentFile(path="channels/Nius2.xml")}
+[2024-12-04T18:23:05.254+0000] {logging_mixin.py:190} INFO - Generando XML para el canal A1-padel
+[2024-12-04T18:23:05.255+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "A1-padel"
+[2024-12-04T18:23:06.922+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="1e36f6d83ba0573f1b8d73a287009a29c7370473"), 'content': ContentFile(path="channels/A1-padel.xml")}
+[2024-12-04T18:23:06.923+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-04T18:23:06.930+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T18:23:06.930+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=mitele_schedule_scraper, task_id=scrape_mitele_schedule, run_id=manual__2024-12-04T18:22:19.646132+00:00, execution_date=20241204T182219, start_date=20241204T182221, end_date=20241204T182306
+[2024-12-04T18:23:06.975+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T18:23:06.983+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T18:23:06.984+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,32 @@
+[2024-12-04T18:47:02.014+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T18:47:02.023+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule manual__2024-12-04T18:47:00.654478+00:00 [queued]>
+[2024-12-04T18:47:02.028+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule manual__2024-12-04T18:47:00.654478+00:00 [queued]>
+[2024-12-04T18:47:02.028+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T18:47:02.181+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_a3media_schedule> on 2024-12-04 18:47:00.654478+00:00
+[2024-12-04T18:47:02.185+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=104) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T18:47:02.186+0000] {standard_task_runner.py:72} INFO - Started process 105 to run task
+[2024-12-04T18:47:02.186+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'a3media_schedule_scraper', 'scrape_a3media_schedule', 'manual__2024-12-04T18:47:00.654478+00:00', '--job-id', '453', '--raw', '--subdir', 'DAGS_FOLDER/dag_atresmedia.py', '--cfg-path', '/tmp/tmp_ueoggbg']
+[2024-12-04T18:47:02.188+0000] {standard_task_runner.py:105} INFO - Job 453: Subtask scrape_a3media_schedule
+[2024-12-04T18:47:02.211+0000] {task_command.py:467} INFO - Running <TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule manual__2024-12-04T18:47:00.654478+00:00 [running]> on host d88abb179e8d
+[2024-12-04T18:47:02.254+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='a3media_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_a3media_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T18:47:00.654478+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-04T18:47:00.654478+00:00'
+[2024-12-04T18:47:02.255+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T18:47:02.475+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Antena 3"
+[2024-12-04T18:47:04.419+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T18:47:04.539+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "laSexta"
+[2024-12-04T18:47:06.401+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T18:47:06.560+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Neox"
+[2024-12-04T18:47:08.356+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T18:47:08.478+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Nova"
+[2024-12-04T18:47:10.350+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T18:47:10.492+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mega"
+[2024-12-04T18:47:12.344+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T18:47:12.480+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Atreseries"
+[2024-12-04T18:47:14.291+0000] {logging_mixin.py:190} INFO - Error: cannot access local variable 'response' where it is not associated with a value
+[2024-12-04T18:47:14.292+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-04T18:47:14.298+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T18:47:14.299+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=a3media_schedule_scraper, task_id=scrape_a3media_schedule, run_id=manual__2024-12-04T18:47:00.654478+00:00, execution_date=20241204T184700, start_date=20241204T184702, end_date=20241204T184714
+[2024-12-04T18:47:14.317+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T18:47:14.324+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T18:47:14.325+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

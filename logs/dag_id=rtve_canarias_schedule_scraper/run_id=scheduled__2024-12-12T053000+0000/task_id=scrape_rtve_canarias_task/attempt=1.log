@@ -1,0 +1,26 @@
+[2024-12-12T11:30:01.559+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-12T11:30:01.571+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rtve_canarias_schedule_scraper.scrape_rtve_canarias_task scheduled__2024-12-12T05:30:00+00:00 [queued]>
+[2024-12-12T11:30:01.577+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rtve_canarias_schedule_scraper.scrape_rtve_canarias_task scheduled__2024-12-12T05:30:00+00:00 [queued]>
+[2024-12-12T11:30:01.578+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-12T11:30:01.588+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): scrape_rtve_canarias_task> on 2024-12-12 05:30:00+00:00
+[2024-12-12T11:30:01.592+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=16811) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-12T11:30:01.596+0000] {standard_task_runner.py:72} INFO - Started process 16820 to run task
+[2024-12-12T11:30:01.595+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'rtve_canarias_schedule_scraper', 'scrape_rtve_canarias_task', 'scheduled__2024-12-12T05:30:00+00:00', '--job-id', '2359', '--raw', '--subdir', 'DAGS_FOLDER/dag_rtve_canarias_selenium.py', '--cfg-path', '/tmp/tmpnlhdqkok']
+[2024-12-12T11:30:01.598+0000] {standard_task_runner.py:105} INFO - Job 2359: Subtask scrape_rtve_canarias_task
+[2024-12-12T11:30:01.629+0000] {task_command.py:467} INFO - Running <TaskInstance: rtve_canarias_schedule_scraper.scrape_rtve_canarias_task scheduled__2024-12-12T05:30:00+00:00 [running]> on host b605548c7b8b
+[2024-12-12T11:30:01.681+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='rtve_canarias_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_rtve_canarias_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-12T05:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-12T05:30:00+00:00'
+[2024-12-12T11:30:01.682+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-12T11:30:33.223+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-12T11:30:33.224+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 1 Canarias"
+[2024-12-12T11:30:35.266+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-12T11:30:35.267+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 2 Canarias"
+[2024-12-12T11:30:37.229+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-12T11:30:37.230+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "24 horas Canarias"
+[2024-12-12T11:30:37.306+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-12T11:30:37.312+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-12T11:30:37.312+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=rtve_canarias_schedule_scraper, task_id=scrape_rtve_canarias_task, run_id=scheduled__2024-12-12T05:30:00+00:00, execution_date=20241212T053000, start_date=20241212T113001, end_date=20241212T113037
+[2024-12-12T11:30:37.339+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-12T11:30:37.353+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-12T11:30:37.355+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

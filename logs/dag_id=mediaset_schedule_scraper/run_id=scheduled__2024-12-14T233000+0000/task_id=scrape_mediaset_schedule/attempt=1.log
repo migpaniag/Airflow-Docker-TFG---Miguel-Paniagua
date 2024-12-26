@@ -1,0 +1,71 @@
+[2024-12-15T10:38:25.190+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-15T10:38:25.201+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mediaset_schedule_scraper.scrape_mediaset_schedule scheduled__2024-12-14T23:30:00+00:00 [queued]>
+[2024-12-15T10:38:25.206+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mediaset_schedule_scraper.scrape_mediaset_schedule scheduled__2024-12-14T23:30:00+00:00 [queued]>
+[2024-12-15T10:38:25.206+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-15T10:38:25.215+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): scrape_mediaset_schedule> on 2024-12-14 23:30:00+00:00
+[2024-12-15T10:38:25.221+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=102) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-15T10:38:25.224+0000] {standard_task_runner.py:72} INFO - Started process 112 to run task
+[2024-12-15T10:38:25.225+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'mediaset_schedule_scraper', 'scrape_mediaset_schedule', 'scheduled__2024-12-14T23:30:00+00:00', '--job-id', '2506', '--raw', '--subdir', 'DAGS_FOLDER/dag_mediaset.py', '--cfg-path', '/tmp/tmpti_wm_zx']
+[2024-12-15T10:38:25.228+0000] {standard_task_runner.py:105} INFO - Job 2506: Subtask scrape_mediaset_schedule
+[2024-12-15T10:38:25.261+0000] {task_command.py:467} INFO - Running <TaskInstance: mediaset_schedule_scraper.scrape_mediaset_schedule scheduled__2024-12-14T23:30:00+00:00 [running]> on host b605548c7b8b
+[2024-12-15T10:38:25.314+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mediaset_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_mediaset_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-14T23:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-14T23:30:00+00:00'
+[2024-12-15T10:38:25.315+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-15T10:38:28.658+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Telecinco
+[2024-12-15T10:38:28.660+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Telecinco"
+[2024-12-15T10:38:30.412+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:30.412+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Cuatro
+[2024-12-15T10:38:30.415+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Cuatro"
+[2024-12-15T10:38:32.316+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:32.317+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh 24h plus
+[2024-12-15T10:38:32.319+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Gh 24h plus"
+[2024-12-15T10:38:34.034+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:34.035+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh 24h
+[2024-12-15T10:38:34.037+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Gh 24h"
+[2024-12-15T10:38:35.647+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:35.647+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele en la calle
+[2024-12-15T10:38:35.650+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele en la calle"
+[2024-12-15T10:38:37.399+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:37.400+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele viajes
+[2024-12-15T10:38:37.403+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele viajes"
+[2024-12-15T10:38:39.110+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:39.110+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele plus lqsa
+[2024-12-15T10:38:39.113+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele plus lqsa"
+[2024-12-15T10:38:41.073+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:41.073+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele comedia
+[2024-12-15T10:38:41.075+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele comedia"
+[2024-12-15T10:38:42.861+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:42.862+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele top series
+[2024-12-15T10:38:42.864+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mitele top series"
+[2024-12-15T10:38:46.048+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-15T10:38:46.049+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Divinity
+[2024-12-15T10:38:46.052+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Divinity"
+[2024-12-15T10:38:48.268+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:48.268+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fdf
+[2024-12-15T10:38:48.270+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Fdf"
+[2024-12-15T10:38:49.956+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:49.956+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Energy
+[2024-12-15T10:38:49.960+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Energy"
+[2024-12-15T10:38:52.016+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:52.017+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Bemad
+[2024-12-15T10:38:52.019+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Bemad"
+[2024-12-15T10:38:53.929+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:53.930+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Boing
+[2024-12-15T10:38:53.935+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Boing"
+[2024-12-15T10:38:55.891+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:55.892+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Acontraplus
+[2024-12-15T10:38:55.895+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Acontraplus"
+[2024-12-15T10:38:57.764+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:57.764+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fight sports
+[2024-12-15T10:38:57.767+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Fight sports"
+[2024-12-15T10:38:59.748+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:38:59.748+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mtmad 24h
+[2024-12-15T10:38:59.750+0000] {logging_mixin.py:190} INFO - Escrito el xml del canal "Mtmad 24h"
+[2024-12-15T10:39:01.342+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-15T10:39:01.343+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-15T10:39:01.349+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-15T10:39:01.349+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=mediaset_schedule_scraper, task_id=scrape_mediaset_schedule, run_id=scheduled__2024-12-14T23:30:00+00:00, execution_date=20241214T233000, start_date=20241215T103825, end_date=20241215T103901
+[2024-12-15T10:39:01.364+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-15T10:39:01.379+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-15T10:39:01.380+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

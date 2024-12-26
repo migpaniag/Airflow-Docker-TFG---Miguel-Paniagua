@@ -1,0 +1,21 @@
+[2024-12-07T15:00:15.564+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-07T15:00:15.572+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: a3media_schedule_scraper.MergeAllXML scheduled__2024-12-07T07:00:00+00:00 [queued]>
+[2024-12-07T15:00:15.576+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: a3media_schedule_scraper.MergeAllXML scheduled__2024-12-07T07:00:00+00:00 [queued]>
+[2024-12-07T15:00:15.576+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-07T15:00:15.583+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): MergeAllXML> on 2024-12-07 07:00:00+00:00
+[2024-12-07T15:00:15.587+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=2861) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-07T15:00:15.588+0000] {standard_task_runner.py:72} INFO - Started process 2862 to run task
+[2024-12-07T15:00:15.589+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'a3media_schedule_scraper', 'MergeAllXML', 'scheduled__2024-12-07T07:00:00+00:00', '--job-id', '2038', '--raw', '--subdir', 'DAGS_FOLDER/dag_atresmedia.py', '--cfg-path', '/tmp/tmph64swz5m']
+[2024-12-07T15:00:15.590+0000] {standard_task_runner.py:105} INFO - Job 2038: Subtask MergeAllXML
+[2024-12-07T15:00:15.614+0000] {task_command.py:467} INFO - Running <TaskInstance: a3media_schedule_scraper.MergeAllXML scheduled__2024-12-07T07:00:00+00:00 [running]> on host b605548c7b8b
+[2024-12-07T15:00:15.654+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='a3media_schedule_scraper' AIRFLOW_CTX_TASK_ID='MergeAllXML' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-07T07:00:00+00:00'
+[2024-12-07T15:00:15.655+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-07T15:00:15.764+0000] {logging_mixin.py:190} INFO - [INFO] Generado el archivo "all_in_one.xml"
+[2024-12-07T15:00:15.765+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-07T15:00:15.771+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-07T15:00:15.772+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=a3media_schedule_scraper, task_id=MergeAllXML, run_id=scheduled__2024-12-07T07:00:00+00:00, execution_date=20241207T070000, start_date=20241207T150015, end_date=20241207T150015
+[2024-12-07T15:00:15.922+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-07T15:00:15.934+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T15:00:15.936+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

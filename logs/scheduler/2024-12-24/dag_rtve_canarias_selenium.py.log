@@ -1,0 +1,700 @@
+[2024-12-24T00:00:03.054+0000] {processor.py:186} INFO - Started process (PID=25309) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:00:03.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:00:03.057+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:00:03.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:00:03.245+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:00:03.265+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:00:03.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:00:03.284+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:00:03.284+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:00:03.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.251 seconds
+[2024-12-24T00:00:34.217+0000] {processor.py:186} INFO - Started process (PID=25324) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:00:34.218+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:00:34.220+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:00:34.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:00:34.384+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:00:34.403+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:00:34.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:00:34.421+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:00:34.421+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:00:34.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.226 seconds
+[2024-12-24T00:01:05.347+0000] {processor.py:186} INFO - Started process (PID=25339) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:01:05.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:01:05.350+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:01:05.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:01:05.518+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:01:05.541+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:01:05.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:01:05.557+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:01:05.557+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:01:05.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.230 seconds
+[2024-12-24T00:01:36.459+0000] {processor.py:186} INFO - Started process (PID=25354) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:01:36.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:01:36.461+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:01:36.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:01:36.619+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:01:36.633+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:01:36.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:01:36.658+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:01:36.658+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:01:36.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.219 seconds
+[2024-12-24T00:02:07.597+0000] {processor.py:186} INFO - Started process (PID=25369) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:02:07.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:02:07.600+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:02:07.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:02:07.778+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:02:07.800+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:02:07.800+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:02:07.818+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:02:07.818+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:02:07.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.241 seconds
+[2024-12-24T00:02:38.709+0000] {processor.py:186} INFO - Started process (PID=25384) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:02:38.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:02:38.711+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:02:38.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:02:38.899+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:02:38.916+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:02:38.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:02:38.934+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:02:38.933+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:02:38.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.244 seconds
+[2024-12-24T00:03:09.846+0000] {processor.py:186} INFO - Started process (PID=25399) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:03:09.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:03:09.848+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:03:09.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:03:09.986+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:03:10.001+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:03:10.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:03:10.017+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:03:10.017+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:03:10.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.186 seconds
+[2024-12-24T00:03:40.706+0000] {processor.py:186} INFO - Started process (PID=25414) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:03:40.706+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:03:40.708+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:03:40.708+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:03:40.844+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:03:40.861+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:03:40.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:03:40.876+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:03:40.876+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:03:40.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.185 seconds
+[2024-12-24T00:04:11.550+0000] {processor.py:186} INFO - Started process (PID=25429) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:04:11.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:04:11.552+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:04:11.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:04:11.686+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:04:11.700+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:04:11.700+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:04:11.716+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:04:11.716+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:04:11.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.182 seconds
+[2024-12-24T00:04:42.542+0000] {processor.py:186} INFO - Started process (PID=25444) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:04:42.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:04:42.545+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:04:42.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:04:42.681+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:04:42.696+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:04:42.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:04:42.711+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:04:42.711+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:04:42.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.183 seconds
+[2024-12-24T00:05:13.532+0000] {processor.py:186} INFO - Started process (PID=25459) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:05:13.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:05:13.534+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:05:13.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:05:13.699+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:05:13.716+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:05:13.715+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:05:13.733+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:05:13.733+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:05:13.750+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.222 seconds
+[2024-12-24T00:05:44.480+0000] {processor.py:186} INFO - Started process (PID=25474) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:05:44.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:05:44.482+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:05:44.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:05:44.618+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:05:44.632+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:05:44.632+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:05:44.648+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:05:44.648+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:05:44.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.185 seconds
+[2024-12-24T00:06:15.342+0000] {processor.py:186} INFO - Started process (PID=25489) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:06:15.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:06:15.344+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:06:15.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:06:15.478+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:06:15.493+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:06:15.493+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:06:15.508+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:06:15.508+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:06:15.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.180 seconds
+[2024-12-24T00:06:46.204+0000] {processor.py:186} INFO - Started process (PID=25504) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:06:46.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:06:46.206+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:06:46.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:06:46.340+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:06:46.356+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:06:46.356+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:06:46.373+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:06:46.373+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:06:46.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.185 seconds
+[2024-12-24T00:07:17.043+0000] {processor.py:186} INFO - Started process (PID=25519) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:07:17.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:07:17.045+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:07:17.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:07:17.182+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:07:17.198+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:07:17.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:07:17.213+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:07:17.213+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:07:17.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.185 seconds
+[2024-12-24T00:07:47.924+0000] {processor.py:186} INFO - Started process (PID=25534) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:07:47.925+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:07:47.927+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:07:47.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:07:48.063+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:07:48.078+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:07:48.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:07:48.095+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:07:48.095+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:07:48.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.185 seconds
+[2024-12-24T00:08:18.759+0000] {processor.py:186} INFO - Started process (PID=25556) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:08:18.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:08:18.762+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:08:18.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:08:18.900+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:08:18.913+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:08:18.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:08:18.927+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:08:18.927+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:08:18.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.182 seconds
+[2024-12-24T00:08:49.609+0000] {processor.py:186} INFO - Started process (PID=25571) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:08:49.610+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:08:49.611+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:08:49.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:08:49.750+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:08:49.765+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:08:49.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:08:49.779+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:08:49.779+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:08:49.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.185 seconds
+[2024-12-24T00:09:20.467+0000] {processor.py:186} INFO - Started process (PID=25586) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:09:20.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:09:20.469+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:09:20.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:09:20.605+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:09:20.620+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:09:20.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:09:20.633+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:09:20.633+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:09:20.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.183 seconds
+[2024-12-24T00:09:51.470+0000] {processor.py:186} INFO - Started process (PID=25601) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:09:51.471+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:09:51.472+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:09:51.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:09:51.608+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:09:51.623+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:09:51.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:09:51.637+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:09:51.637+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:09:51.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.182 seconds
+[2024-12-24T00:10:22.313+0000] {processor.py:186} INFO - Started process (PID=25616) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:10:22.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:10:22.315+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:10:22.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:10:22.449+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:10:22.464+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:10:22.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:10:22.481+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:10:22.480+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:10:22.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.183 seconds
+[2024-12-24T00:10:53.166+0000] {processor.py:186} INFO - Started process (PID=25631) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:10:53.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:10:53.169+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:10:53.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:10:53.311+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:10:53.325+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:10:53.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:10:53.339+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:10:53.339+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:10:53.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.189 seconds
+[2024-12-24T00:11:24.003+0000] {processor.py:186} INFO - Started process (PID=25646) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:11:24.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:11:24.005+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:11:24.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:11:24.140+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:11:24.156+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:11:24.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:11:24.170+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:11:24.170+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:11:24.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.181 seconds
+[2024-12-24T00:11:54.999+0000] {processor.py:186} INFO - Started process (PID=25662) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:11:54.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:11:55.001+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:11:55.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:11:55.167+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:11:55.190+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:11:55.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:11:55.210+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:11:55.210+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:11:55.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.230 seconds
+[2024-12-24T00:12:25.997+0000] {processor.py:186} INFO - Started process (PID=25677) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:12:25.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:12:25.999+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:12:25.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:12:26.134+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:12:26.148+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:12:26.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:12:26.161+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:12:26.160+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:12:26.170+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.178 seconds
+[2024-12-24T00:12:56.884+0000] {processor.py:186} INFO - Started process (PID=25692) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:12:56.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:12:56.885+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:12:56.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:12:57.017+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:12:57.031+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:12:57.030+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:12:57.045+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:12:57.045+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:12:57.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.175 seconds
+[2024-12-24T00:13:27.744+0000] {processor.py:186} INFO - Started process (PID=25707) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:13:27.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:13:27.746+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:13:27.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:13:27.884+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:13:27.899+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:13:27.899+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:13:27.914+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:13:27.914+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:13:27.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.186 seconds
+[2024-12-24T00:13:58.639+0000] {processor.py:186} INFO - Started process (PID=25722) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:13:58.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:13:58.641+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:13:58.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:13:58.771+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:13:58.784+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:13:58.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:13:58.798+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:13:58.798+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:13:58.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.172 seconds
+[2024-12-24T00:14:29.504+0000] {processor.py:186} INFO - Started process (PID=25737) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:14:29.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:14:29.506+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:14:29.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:14:29.638+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:14:29.652+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:14:29.652+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:14:29.666+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:14:29.666+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:14:29.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.176 seconds
+[2024-12-24T00:15:00.387+0000] {processor.py:186} INFO - Started process (PID=25752) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:15:00.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:15:00.389+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:15:00.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:15:00.518+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:15:00.533+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:15:00.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:15:00.547+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:15:00.547+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:15:00.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.175 seconds
+[2024-12-24T00:15:31.270+0000] {processor.py:186} INFO - Started process (PID=25767) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:15:31.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:15:31.272+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:15:31.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:15:31.399+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:15:31.412+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:15:31.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:15:31.425+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:15:31.425+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:15:31.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.169 seconds
+[2024-12-24T00:16:02.153+0000] {processor.py:186} INFO - Started process (PID=25782) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:16:02.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:16:02.155+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:16:02.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:16:02.293+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:16:02.306+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:16:02.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:16:02.319+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:16:02.318+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:16:02.328+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.178 seconds
+[2024-12-24T00:16:33.063+0000] {processor.py:186} INFO - Started process (PID=25797) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:16:33.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:16:33.065+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:16:33.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:16:33.193+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:16:33.206+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:16:33.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:16:33.220+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:16:33.220+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:16:33.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.171 seconds
+[2024-12-24T00:17:03.977+0000] {processor.py:186} INFO - Started process (PID=25812) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:17:03.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:17:03.979+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:17:03.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:17:04.108+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:17:04.121+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:17:04.121+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:17:04.134+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:17:04.133+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:17:04.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.171 seconds
+[2024-12-24T00:17:34.880+0000] {processor.py:186} INFO - Started process (PID=25827) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:17:34.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:17:34.882+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:17:34.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:17:35.010+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:17:35.024+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:17:35.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:17:35.037+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:17:35.037+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:17:35.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.170 seconds
+[2024-12-24T00:18:05.746+0000] {processor.py:186} INFO - Started process (PID=25842) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:18:05.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:18:05.748+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:18:05.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:18:05.880+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:18:05.893+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:18:05.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:18:05.907+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:18:05.907+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:18:05.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.174 seconds
+[2024-12-24T00:18:36.590+0000] {processor.py:186} INFO - Started process (PID=25857) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:18:36.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:18:36.592+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:18:36.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:18:36.727+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:18:36.742+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:18:36.742+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:18:36.758+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:18:36.758+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:18:36.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.184 seconds
+[2024-12-24T00:19:07.464+0000] {processor.py:186} INFO - Started process (PID=25872) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:19:07.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:19:07.466+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:19:07.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:19:07.596+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:19:07.608+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:19:07.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:19:07.622+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:19:07.622+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:19:07.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.171 seconds
+[2024-12-24T00:19:38.479+0000] {processor.py:186} INFO - Started process (PID=25887) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:19:38.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:19:38.481+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:19:38.480+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:19:38.610+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:19:38.623+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:19:38.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:19:38.636+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:19:38.636+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:19:38.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.172 seconds
+[2024-12-24T00:20:09.332+0000] {processor.py:186} INFO - Started process (PID=25902) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:20:09.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:20:09.334+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:20:09.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:20:09.461+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:20:09.476+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:20:09.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:20:09.490+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:20:09.490+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:20:09.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.172 seconds
+[2024-12-24T00:20:40.216+0000] {processor.py:186} INFO - Started process (PID=25917) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:20:40.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:20:40.218+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:20:40.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:20:40.359+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:20:40.374+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:20:40.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:20:40.389+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:20:40.389+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:20:40.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.187 seconds
+[2024-12-24T00:21:11.105+0000] {processor.py:186} INFO - Started process (PID=25932) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:21:11.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:21:11.108+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:21:11.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:21:11.239+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:21:11.254+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:21:11.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:21:11.270+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:21:11.270+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:21:11.280+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.178 seconds
+[2024-12-24T00:21:41.965+0000] {processor.py:186} INFO - Started process (PID=25947) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:21:41.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:21:41.967+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:21:41.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:21:42.098+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:21:42.111+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:21:42.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:21:42.124+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:21:42.124+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:21:42.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.172 seconds
+[2024-12-24T00:22:12.855+0000] {processor.py:186} INFO - Started process (PID=25962) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:22:12.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:22:12.857+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:22:12.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:22:12.984+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:22:12.997+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:22:12.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:22:13.010+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:22:13.010+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:22:13.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.169 seconds
+[2024-12-24T00:22:43.905+0000] {processor.py:186} INFO - Started process (PID=25977) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:22:43.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:22:43.907+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:22:43.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:22:44.054+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:22:44.069+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:22:44.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:22:44.085+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:22:44.085+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:22:44.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.196 seconds
+[2024-12-24T00:23:15.005+0000] {processor.py:186} INFO - Started process (PID=25992) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:23:15.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:23:15.008+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:23:15.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:23:15.218+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:23:15.240+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:23:15.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:23:15.272+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:23:15.272+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:23:15.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.292 seconds
+[2024-12-24T00:23:46.044+0000] {processor.py:186} INFO - Started process (PID=26007) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:23:46.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:23:46.046+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:23:46.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:23:46.193+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:23:46.212+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:23:46.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:23:46.228+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:23:46.228+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:23:46.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.202 seconds
+[2024-12-24T00:24:16.939+0000] {processor.py:186} INFO - Started process (PID=26022) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:24:16.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:24:16.941+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:24:16.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:24:17.069+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:24:17.084+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:24:17.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:24:17.099+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:24:17.098+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:24:17.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.174 seconds
+[2024-12-24T00:24:47.983+0000] {processor.py:186} INFO - Started process (PID=26037) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:24:47.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:24:47.987+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:24:47.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:24:48.167+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:24:48.185+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:24:48.185+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:24:48.204+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:24:48.204+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:24:48.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.239 seconds
+[2024-12-24T00:25:19.008+0000] {processor.py:186} INFO - Started process (PID=26052) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:25:19.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:25:19.010+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:25:19.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:25:19.144+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:25:19.158+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:25:19.158+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:25:19.173+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:25:19.173+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:25:19.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.179 seconds
+[2024-12-24T00:25:49.999+0000] {processor.py:186} INFO - Started process (PID=26073) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:25:50.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:25:50.001+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:25:50.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:25:50.139+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:25:50.153+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:25:50.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:25:50.170+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:25:50.169+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:25:50.181+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.186 seconds
+[2024-12-24T00:26:20.856+0000] {processor.py:186} INFO - Started process (PID=26088) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:26:20.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:26:20.858+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:26:20.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:26:20.999+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:26:21.014+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:26:21.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:26:21.029+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:26:21.029+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:26:21.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.187 seconds
+[2024-12-24T00:26:51.761+0000] {processor.py:186} INFO - Started process (PID=26103) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:26:51.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:26:51.763+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:26:51.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:26:51.901+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:26:51.914+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:26:51.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:26:51.929+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:26:51.929+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:26:51.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.182 seconds
+[2024-12-24T00:27:22.832+0000] {processor.py:186} INFO - Started process (PID=26118) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:27:22.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:27:22.835+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:27:22.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:27:23.014+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:27:23.037+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:27:23.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:27:23.055+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:27:23.055+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:27:23.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.244 seconds
+[2024-12-24T00:27:54.007+0000] {processor.py:186} INFO - Started process (PID=26133) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:27:54.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:27:54.011+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:27:54.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:27:54.184+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:27:54.204+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:27:54.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:27:54.225+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:27:54.225+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:27:54.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.237 seconds
+[2024-12-24T00:28:24.982+0000] {processor.py:186} INFO - Started process (PID=26148) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:28:24.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:28:24.984+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:28:24.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:28:25.120+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:28:25.135+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:28:25.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:28:25.152+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:28:25.152+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:28:25.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.187 seconds
+[2024-12-24T00:28:55.806+0000] {processor.py:186} INFO - Started process (PID=26163) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:28:55.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:28:55.808+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:28:55.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:28:55.940+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:28:55.955+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:28:55.955+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:28:55.969+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:28:55.969+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:28:55.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.178 seconds
+[2024-12-24T00:29:26.629+0000] {processor.py:186} INFO - Started process (PID=26178) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:29:26.630+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:29:26.631+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:29:26.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:29:26.765+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:29:26.779+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:29:26.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:29:26.794+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:29:26.794+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:29:26.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.179 seconds
+[2024-12-24T00:29:57.611+0000] {processor.py:186} INFO - Started process (PID=26193) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:29:57.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:29:57.613+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:29:57.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:29:57.746+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:29:57.761+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:29:57.761+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:29:57.776+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:29:57.776+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:29:57.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.180 seconds
+[2024-12-24T00:30:28.664+0000] {processor.py:186} INFO - Started process (PID=26208) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:30:28.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:30:28.666+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:30:28.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:30:28.860+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:30:28.880+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:30:28.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:30:28.903+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:30:28.903+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:30:28.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.263 seconds
+[2024-12-24T00:30:59.013+0000] {processor.py:186} INFO - Started process (PID=26223) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:30:59.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:30:59.015+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:30:59.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:30:59.196+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:30:59.222+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:30:59.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:30:59.243+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:30:59.243+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:30:59.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.254 seconds
+[2024-12-24T00:31:29.419+0000] {processor.py:186} INFO - Started process (PID=26238) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:31:29.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:31:29.422+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:31:29.421+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:31:29.605+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:31:29.625+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:31:29.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:31:29.644+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:31:29.644+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:31:29.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.246 seconds
+[2024-12-24T00:31:59.717+0000] {processor.py:186} INFO - Started process (PID=26253) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:31:59.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:31:59.720+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:31:59.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:31:59.888+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:31:59.904+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:31:59.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:31:59.924+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:31:59.924+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:31:59.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.225 seconds
+[2024-12-24T00:32:30.794+0000] {processor.py:186} INFO - Started process (PID=26268) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:32:30.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:32:30.796+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:32:30.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:32:30.968+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:32:30.988+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:32:30.988+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:32:31.009+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:32:31.008+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:32:31.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.232 seconds
+[2024-12-24T00:33:01.143+0000] {processor.py:186} INFO - Started process (PID=26283) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:33:01.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:33:01.145+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:33:01.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:33:01.320+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:33:01.342+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:33:01.342+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:33:01.359+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:33:01.359+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:33:01.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.237 seconds
+[2024-12-24T00:33:31.429+0000] {processor.py:186} INFO - Started process (PID=26298) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:33:31.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:33:31.431+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:33:31.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:33:31.607+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:33:31.625+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:33:31.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:33:31.645+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:33:31.645+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:33:31.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.237 seconds
+[2024-12-24T00:34:01.769+0000] {processor.py:186} INFO - Started process (PID=26313) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:34:01.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:34:01.772+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:34:01.771+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:34:01.961+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:34:01.979+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:34:01.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:34:02.000+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:34:02.000+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:34:02.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.253 seconds
+[2024-12-24T00:34:32.383+0000] {processor.py:186} INFO - Started process (PID=26328) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:34:32.383+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:34:32.385+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:34:32.385+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:34:32.565+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:34:32.586+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:34:32.585+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:34:32.605+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:34:32.605+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:34:32.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.240 seconds
+[2024-12-24T00:35:02.728+0000] {processor.py:186} INFO - Started process (PID=26343) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:35:02.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:35:02.731+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:35:02.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:35:02.926+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:35:02.948+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:35:02.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:35:02.970+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:35:02.970+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:35:02.985+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.263 seconds
+[2024-12-24T00:35:33.052+0000] {processor.py:186} INFO - Started process (PID=26358) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:35:33.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:35:33.055+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:35:33.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:35:33.244+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:35:33.258+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:35:33.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:35:33.273+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:35:33.273+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:35:33.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.237 seconds
+[2024-12-24T00:36:03.921+0000] {processor.py:186} INFO - Started process (PID=26373) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:36:03.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:36:03.923+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:36:03.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:36:04.063+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:36:04.076+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:36:04.076+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:36:04.091+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:36:04.091+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:36:04.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.186 seconds
+[2024-12-24T00:36:34.768+0000] {processor.py:186} INFO - Started process (PID=26388) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:36:34.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:36:34.770+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:36:34.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:36:34.947+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:36:34.970+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:36:34.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:36:34.990+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:36:34.990+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:36:35.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.244 seconds
+[2024-12-24T00:37:05.822+0000] {processor.py:186} INFO - Started process (PID=26403) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:37:05.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:37:05.824+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:37:05.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:37:05.960+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:37:05.975+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:37:05.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:37:05.990+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:37:05.990+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:37:06.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.183 seconds
+[2024-12-24T00:37:36.698+0000] {processor.py:186} INFO - Started process (PID=26418) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:37:36.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:37:36.700+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:37:36.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:37:36.836+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:37:36.851+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:37:36.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:37:36.866+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:37:36.866+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:37:36.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.184 seconds
+[2024-12-24T00:38:07.527+0000] {processor.py:186} INFO - Started process (PID=26433) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:38:07.528+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:38:07.529+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:38:07.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:38:07.663+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:38:07.679+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:38:07.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:38:07.695+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:38:07.695+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:38:07.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.183 seconds
+[2024-12-24T00:38:38.362+0000] {processor.py:186} INFO - Started process (PID=26448) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:38:38.362+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:38:38.364+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:38:38.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:38:38.501+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:38:38.516+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:38:38.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:38:38.533+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:38:38.532+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:38:38.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.186 seconds
+[2024-12-24T00:39:09.283+0000] {processor.py:186} INFO - Started process (PID=26463) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:39:09.283+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:39:09.285+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:39:09.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:39:09.427+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:39:09.443+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:39:09.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:39:09.460+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:39:09.460+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:39:09.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.193 seconds
+[2024-12-24T00:39:39.644+0000] {processor.py:186} INFO - Started process (PID=26478) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:39:39.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:39:39.646+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:39:39.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:39:39.779+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:39:39.791+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:39:39.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:39:39.805+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:39:39.805+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:39:39.815+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.175 seconds
+[2024-12-24T00:40:10.708+0000] {processor.py:186} INFO - Started process (PID=26493) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:40:10.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:40:10.711+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:40:10.711+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:40:10.899+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:40:10.919+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:40:10.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:40:10.944+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:40:10.944+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:40:10.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.256 seconds
+[2024-12-24T00:40:41.636+0000] {processor.py:186} INFO - Started process (PID=26508) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:40:41.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:40:41.639+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:40:41.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:40:41.778+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:40:41.792+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:40:41.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:40:41.807+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:40:41.807+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:40:41.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.184 seconds
+[2024-12-24T00:41:12.499+0000] {processor.py:186} INFO - Started process (PID=26523) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:41:12.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:41:12.501+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:41:12.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:41:12.637+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:41:12.651+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:41:12.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:41:12.665+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:41:12.665+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:41:12.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.181 seconds
+[2024-12-24T00:41:43.400+0000] {processor.py:186} INFO - Started process (PID=26538) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:41:43.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:41:43.402+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:41:43.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:41:43.534+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:41:43.549+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:41:43.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:41:43.654+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:41:43.654+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:41:43.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.267 seconds
+[2024-12-24T00:42:14.426+0000] {processor.py:186} INFO - Started process (PID=26553) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:42:14.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:42:14.428+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:42:14.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:42:14.591+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:42:14.611+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:42:14.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:42:14.627+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:42:14.626+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:42:14.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.223 seconds
+[2024-12-24T00:42:44.715+0000] {processor.py:186} INFO - Started process (PID=26568) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:42:44.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:42:44.718+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:42:44.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:42:44.897+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:42:45.019+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:42:45.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:42:45.038+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:42:45.038+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:42:45.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.341 seconds
+[2024-12-24T00:43:15.185+0000] {processor.py:186} INFO - Started process (PID=26583) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:43:15.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:43:15.188+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:43:15.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:43:15.368+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:43:15.387+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:43:15.387+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:43:15.407+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:43:15.407+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:43:15.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.243 seconds
+[2024-12-24T00:43:45.566+0000] {processor.py:186} INFO - Started process (PID=26598) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:43:45.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:43:45.569+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:43:45.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:43:45.763+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:43:45.784+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:43:45.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:43:45.800+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:43:45.800+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:43:45.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.252 seconds
+[2024-12-24T00:44:15.849+0000] {processor.py:186} INFO - Started process (PID=26613) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:44:15.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:44:15.852+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:44:15.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:44:16.032+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:44:16.052+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:44:16.051+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:44:16.183+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:44:16.183+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:44:16.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.352 seconds
+[2024-12-24T00:44:46.502+0000] {processor.py:186} INFO - Started process (PID=26628) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:44:46.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:44:46.505+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:44:46.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:44:46.682+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:44:46.704+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:44:46.703+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:44:46.724+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:44:46.724+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:44:46.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.248 seconds
+[2024-12-24T00:45:16.968+0000] {processor.py:186} INFO - Started process (PID=26643) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:45:16.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:45:16.971+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:45:16.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:45:17.152+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:45:17.288+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:45:17.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:45:17.303+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:45:17.303+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:45:17.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.354 seconds
+[2024-12-24T00:45:47.426+0000] {processor.py:186} INFO - Started process (PID=26658) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:45:47.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:45:47.428+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:45:47.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:45:47.611+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:45:47.631+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:45:47.631+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:45:47.754+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:45:47.754+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:45:47.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.348 seconds
+[2024-12-24T00:46:17.871+0000] {processor.py:186} INFO - Started process (PID=26673) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:46:17.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:46:17.873+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:46:17.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:46:18.052+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:46:18.174+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:46:18.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:46:18.192+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:46:18.192+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:46:18.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.341 seconds
+[2024-12-24T00:46:48.438+0000] {processor.py:186} INFO - Started process (PID=26688) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:46:48.439+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:46:48.441+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:46:48.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:46:48.709+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:46:48.729+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:46:48.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:46:48.747+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:46:48.747+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:46:48.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.327 seconds
+[2024-12-24T00:47:19.647+0000] {processor.py:186} INFO - Started process (PID=26703) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:47:19.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:47:19.650+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:47:19.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:47:19.847+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:47:19.866+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:47:19.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:47:19.889+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:47:19.889+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:47:19.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.263 seconds
+[2024-12-24T00:47:50.035+0000] {processor.py:186} INFO - Started process (PID=26718) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:47:50.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:47:50.038+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:47:50.037+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:47:50.228+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:47:50.252+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:47:50.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:47:50.377+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:47:50.377+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:47:50.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.361 seconds
+[2024-12-24T00:48:20.642+0000] {processor.py:186} INFO - Started process (PID=26740) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:48:20.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:48:20.645+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:48:20.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:48:20.782+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:48:20.796+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:48:20.796+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:48:20.905+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:48:20.905+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:48:20.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.277 seconds
+[2024-12-24T00:48:50.983+0000] {processor.py:186} INFO - Started process (PID=26756) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:48:50.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:48:50.985+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:48:50.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:48:51.120+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:48:51.223+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:48:51.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:48:51.235+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:48:51.235+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:48:51.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.265 seconds
+[2024-12-24T00:49:21.409+0000] {processor.py:186} INFO - Started process (PID=26771) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:49:21.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:49:21.411+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:49:21.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:49:21.637+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:49:21.651+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:49:21.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:49:21.664+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:49:21.664+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:49:21.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.268 seconds
+[2024-12-24T00:49:51.759+0000] {processor.py:186} INFO - Started process (PID=26786) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:49:51.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:49:51.761+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:49:51.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:49:51.898+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:49:51.914+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:49:51.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:49:51.929+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:49:51.929+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:49:52.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.276 seconds
+[2024-12-24T00:50:22.183+0000] {processor.py:186} INFO - Started process (PID=26799) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:50:22.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:50:22.187+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:50:22.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:50:22.469+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:50:22.489+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:50:22.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:50:22.505+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:50:22.505+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:50:22.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.342 seconds
+[2024-12-24T00:50:52.597+0000] {processor.py:186} INFO - Started process (PID=26814) to work on /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:50:52.597+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_rtve_canarias_selenium.py for tasks to queue
+[2024-12-24T00:50:52.599+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:50:52.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:50:52.727+0000] {processor.py:925} INFO - DAG(s) 'rtve_canarias_schedule_scraper' retrieved from /opt/airflow/dags/dag_rtve_canarias_selenium.py
+[2024-12-24T00:50:52.743+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:50:52.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-24T00:50:52.858+0000] {logging_mixin.py:190} INFO - [2024-12-24T00:50:52.858+0000] {dag.py:4180} INFO - Setting next_dagrun for rtve_canarias_schedule_scraper to 2024-12-23 23:30:00+00:00, run_after=2024-12-24 05:30:00+00:00
+[2024-12-24T00:50:52.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_rtve_canarias_selenium.py took 0.275 seconds

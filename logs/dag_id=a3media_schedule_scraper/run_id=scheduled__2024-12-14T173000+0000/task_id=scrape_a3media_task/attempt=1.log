@@ -1,0 +1,50 @@
+[2024-12-14T23:30:01.024+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-14T23:30:01.033+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_task scheduled__2024-12-14T17:30:00+00:00 [queued]>
+[2024-12-14T23:30:01.037+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_task scheduled__2024-12-14T17:30:00+00:00 [queued]>
+[2024-12-14T23:30:01.037+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-14T23:30:01.045+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): scrape_a3media_task> on 2024-12-14 17:30:00+00:00
+[2024-12-14T23:30:01.049+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=871) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-14T23:30:01.050+0000] {standard_task_runner.py:72} INFO - Started process 876 to run task
+[2024-12-14T23:30:01.050+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'a3media_schedule_scraper', 'scrape_a3media_task', 'scheduled__2024-12-14T17:30:00+00:00', '--job-id', '2481', '--raw', '--subdir', 'DAGS_FOLDER/dag_atresmedia.py', '--cfg-path', '/tmp/tmp_ve0luqo']
+[2024-12-14T23:30:01.053+0000] {standard_task_runner.py:105} INFO - Job 2481: Subtask scrape_a3media_task
+[2024-12-14T23:30:01.081+0000] {task_command.py:467} INFO - Running <TaskInstance: a3media_schedule_scraper.scrape_a3media_task scheduled__2024-12-14T17:30:00+00:00 [running]> on host b605548c7b8b
+[2024-12-14T23:30:01.125+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='a3media_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_a3media_task' AIRFLOW_CTX_EXECUTION_DATE='2024-12-14T17:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-14T17:30:00+00:00'
+[2024-12-14T23:30:01.125+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-14T23:30:01.207+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a165a7ed1a834493ebf6a?date=13-12-2024
+[2024-12-14T23:30:01.433+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a165a7ed1a834493ebf6a?date=14-12-2024
+[2024-12-14T23:30:01.472+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a165a7ed1a834493ebf6a?date=15-12-2024
+[2024-12-14T23:30:01.509+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Antena 3"
+[2024-12-14T23:30:04.948+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-14T23:30:04.949+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a172c7ed1a834493ebf6b?date=13-12-2024
+[2024-12-14T23:30:04.981+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a172c7ed1a834493ebf6b?date=14-12-2024
+[2024-12-14T23:30:05.017+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a172c7ed1a834493ebf6b?date=15-12-2024
+[2024-12-14T23:30:05.054+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "laSexta"
+[2024-12-14T23:30:06.632+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T23:30:06.632+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a17da7ed1a834493ebf6d?date=13-12-2024
+[2024-12-14T23:30:06.666+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a17da7ed1a834493ebf6d?date=14-12-2024
+[2024-12-14T23:30:06.700+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a17da7ed1a834493ebf6d?date=15-12-2024
+[2024-12-14T23:30:06.735+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Neox"
+[2024-12-14T23:30:09.840+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-14T23:30:09.841+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a180b7ed1a834493ebf6e?date=13-12-2024
+[2024-12-14T23:30:09.881+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a180b7ed1a834493ebf6e?date=14-12-2024
+[2024-12-14T23:30:09.913+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a180b7ed1a834493ebf6e?date=15-12-2024
+[2024-12-14T23:30:09.950+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Nova"
+[2024-12-14T23:30:11.884+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T23:30:11.885+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a18357ed1a834493ebf6f?date=13-12-2024
+[2024-12-14T23:30:11.923+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a18357ed1a834493ebf6f?date=14-12-2024
+[2024-12-14T23:30:11.957+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a18357ed1a834493ebf6f?date=15-12-2024
+[2024-12-14T23:30:11.994+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mega"
+[2024-12-14T23:30:13.948+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T23:30:13.948+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a189a7ed1a834493ebf70?date=13-12-2024
+[2024-12-14T23:30:13.981+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a189a7ed1a834493ebf70?date=14-12-2024
+[2024-12-14T23:30:14.019+0000] {logging_mixin.py:190} INFO - https://api.atresplayer.com/client/v1/row/programming/5a6a189a7ed1a834493ebf70?date=15-12-2024
+[2024-12-14T23:30:14.172+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Atreseries"
+[2024-12-14T23:30:15.947+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente.
+[2024-12-14T23:30:15.947+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-14T23:30:15.953+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-14T23:30:15.953+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=a3media_schedule_scraper, task_id=scrape_a3media_task, run_id=scheduled__2024-12-14T17:30:00+00:00, execution_date=20241214T173000, start_date=20241214T233001, end_date=20241214T233015
+[2024-12-14T23:30:15.987+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-14T23:30:16.000+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-14T23:30:16.003+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

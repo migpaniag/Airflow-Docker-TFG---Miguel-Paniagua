@@ -1,0 +1,2 @@
+#Para levantar contenedor/compose, ejecutar:
+docker compose up

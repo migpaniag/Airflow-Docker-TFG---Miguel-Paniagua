@@ -1,0 +1,30 @@
+[2024-12-04T15:40:07.931+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T15:40:07.939+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: rtve_schedule_scraper.scrape_rtve_schedule manual__2024-12-04T15:40:06.933980+00:00 [queued]>
+[2024-12-04T15:40:07.943+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: rtve_schedule_scraper.scrape_rtve_schedule manual__2024-12-04T15:40:06.933980+00:00 [queued]>
+[2024-12-04T15:40:07.943+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T15:40:07.950+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_rtve_schedule> on 2024-12-04 15:40:06.933980+00:00
+[2024-12-04T15:40:07.955+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=104) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T15:40:07.957+0000] {standard_task_runner.py:72} INFO - Started process 105 to run task
+[2024-12-04T15:40:07.956+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'rtve_schedule_scraper', 'scrape_rtve_schedule', 'manual__2024-12-04T15:40:06.933980+00:00', '--job-id', '430', '--raw', '--subdir', 'DAGS_FOLDER/dag_rtve_selenium.py', '--cfg-path', '/tmp/tmph3nsrql8']
+[2024-12-04T15:40:07.958+0000] {standard_task_runner.py:105} INFO - Job 430: Subtask scrape_rtve_schedule
+[2024-12-04T15:40:07.985+0000] {task_command.py:467} INFO - Running <TaskInstance: rtve_schedule_scraper.scrape_rtve_schedule manual__2024-12-04T15:40:06.933980+00:00 [running]> on host d88abb179e8d
+[2024-12-04T15:40:08.028+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='rtve_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_rtve_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T15:40:06.933980+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-04T15:40:06.933980+00:00'
+[2024-12-04T15:40:08.029+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T15:40:16.061+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="0c50618ad81e704901b63a39d0c06195109eaa49"), 'content': ContentFile(path="channels/La 1.xml")}
+[2024-12-04T15:40:16.062+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 1"
+[2024-12-04T15:40:18.145+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="9172492c10a8edb06427608f5c88abc5e16c15ef"), 'content': ContentFile(path="channels/La 2.xml")}
+[2024-12-04T15:40:18.146+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "La 2"
+[2024-12-04T15:40:20.105+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="080720afd2c71459a6f59d680ad09f71755c66d4"), 'content': ContentFile(path="channels/Teledeporte.xml")}
+[2024-12-04T15:40:20.105+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Teledeporte"
+[2024-12-04T15:40:22.459+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="b1dd975dace988b5278bd5a2accf19a197370871"), 'content': ContentFile(path="channels/24 horas.xml")}
+[2024-12-04T15:40:22.460+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "24 horas"
+[2024-12-04T15:40:24.994+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="bf08b9a93460a464c3f6a4607159bca732eae8fe"), 'content': ContentFile(path="channels/Clan.xml")}
+[2024-12-04T15:40:24.995+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Clan"
+[2024-12-04T15:40:25.074+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-04T15:40:25.080+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T15:40:25.080+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=rtve_schedule_scraper, task_id=scrape_rtve_schedule, run_id=manual__2024-12-04T15:40:06.933980+00:00, execution_date=20241204T154006, start_date=20241204T154007, end_date=20241204T154025
+[2024-12-04T15:40:25.120+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T15:40:25.127+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T15:40:25.128+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

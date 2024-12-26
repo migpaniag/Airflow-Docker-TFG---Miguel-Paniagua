@@ -1,0 +1,32 @@
+[2024-12-04T16:12:17.480+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T16:12:17.488+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule manual__2024-12-04T16:12:16.916584+00:00 [queued]>
+[2024-12-04T16:12:17.492+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule manual__2024-12-04T16:12:16.916584+00:00 [queued]>
+[2024-12-04T16:12:17.492+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T16:12:17.499+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_a3media_schedule> on 2024-12-04 16:12:16.916584+00:00
+[2024-12-04T16:12:17.502+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=104) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T16:12:17.503+0000] {standard_task_runner.py:72} INFO - Started process 105 to run task
+[2024-12-04T16:12:17.504+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'a3media_schedule_scraper', 'scrape_a3media_schedule', 'manual__2024-12-04T16:12:16.916584+00:00', '--job-id', '433', '--raw', '--subdir', 'DAGS_FOLDER/dag_atresmedia.py', '--cfg-path', '/tmp/tmpu14puk6d']
+[2024-12-04T16:12:17.505+0000] {standard_task_runner.py:105} INFO - Job 433: Subtask scrape_a3media_schedule
+[2024-12-04T16:12:17.530+0000] {task_command.py:467} INFO - Running <TaskInstance: a3media_schedule_scraper.scrape_a3media_schedule manual__2024-12-04T16:12:16.916584+00:00 [running]> on host d88abb179e8d
+[2024-12-04T16:12:17.572+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='a3media_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_a3media_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T16:12:16.916584+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-04T16:12:16.916584+00:00'
+[2024-12-04T16:12:17.573+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T16:12:18.022+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Antena 3"
+[2024-12-04T16:12:19.856+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="83126198fc5acfd62be4734f11f974cbd5ec5f5f"), 'content': ContentFile(path="channels/Antena 3.xml")}
+[2024-12-04T16:12:20.136+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "laSexta"
+[2024-12-04T16:12:21.976+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="a6dafca235146401428d2958d3d2efb537bbd953"), 'content': ContentFile(path="channels/laSexta.xml")}
+[2024-12-04T16:12:22.120+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Neox"
+[2024-12-04T16:12:23.890+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="96f6574e66ef02138c85b379dd95b3205002fb44"), 'content': ContentFile(path="channels/Neox.xml")}
+[2024-12-04T16:12:24.025+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Nova"
+[2024-12-04T16:12:26.005+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="e3812f3c02838ec7024988f40a9169dffdcf4778"), 'content': ContentFile(path="channels/Nova.xml")}
+[2024-12-04T16:12:26.144+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mega"
+[2024-12-04T16:12:28.023+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="ce637382a07f72ebbe2307e4765e44aba5d58520"), 'content': ContentFile(path="channels/Mega.xml")}
+[2024-12-04T16:12:28.158+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Atreseries"
+[2024-12-04T16:12:29.969+0000] {logging_mixin.py:190} INFO - Archivo actualizado correctamente. {'commit': Commit(sha="e6b116da83a8e4092c845b0bdc81b8c778c17719"), 'content': ContentFile(path="channels/Atreseries.xml")}
+[2024-12-04T16:12:29.970+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-04T16:12:29.975+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T16:12:29.976+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=a3media_schedule_scraper, task_id=scrape_a3media_schedule, run_id=manual__2024-12-04T16:12:16.916584+00:00, execution_date=20241204T161216, start_date=20241204T161217, end_date=20241204T161229
+[2024-12-04T16:12:30.001+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T16:12:30.009+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T16:12:30.010+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

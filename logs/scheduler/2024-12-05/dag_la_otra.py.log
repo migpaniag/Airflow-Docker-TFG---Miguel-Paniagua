@@ -1,0 +1,22 @@
+[2024-12-05T23:59:17.031+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-05T23:59:17.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-05T23:59:17.033+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-05T23:59:17.310+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-05T23:59:17.385+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.384+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:la_otra_schedule_scraper
+[2024-12-05T23:59:17.391+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.390+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:la_otra_schedule_scraper
+[2024-12-05T23:59:17.394+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.393+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:la_otra_schedule_scraper
+[2024-12-05T23:59:17.397+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.397+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:la_otra_schedule_scraper
+[2024-12-05T23:59:17.401+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.400+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:la_otra_schedule_scraper
+[2024-12-05T23:59:17.404+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.404+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:la_otra_schedule_scraper
+[2024-12-05T23:59:17.408+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.407+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:la_otra_schedule_scraper
+[2024-12-05T23:59:17.408+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.408+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:59:17.415+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.415+0000] {dag.py:3262} INFO - Creating ORM DAG for la_otra_schedule_scraper
+[2024-12-05T23:59:17.421+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.420+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:59:17.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.404 seconds
+[2024-12-05T23:59:47.490+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag_la_otra.py
+[2024-12-05T23:59:47.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_la_otra.py for tasks to queue
+[2024-12-05T23:59:47.492+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:47.492+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_la_otra.py
+[2024-12-05T23:59:47.680+0000] {processor.py:925} INFO - DAG(s) 'la_otra_schedule_scraper' retrieved from /opt/airflow/dags/dag_la_otra.py
+[2024-12-05T23:59:47.735+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:47.735+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:59:47.746+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:47.746+0000] {dag.py:4180} INFO - Setting next_dagrun for la_otra_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:59:47.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_la_otra.py took 0.267 seconds

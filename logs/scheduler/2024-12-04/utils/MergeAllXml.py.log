@@ -1,0 +1,350 @@
+[2024-12-04T22:33:46.021+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:33:46.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXml.py for tasks to queue
+[2024-12-04T22:33:46.026+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:33:46.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:33:46.052+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:33:46.049+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXml.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXml.py", line 2, in <module>
+    from push_file_to_github import push_file_to_github
+ModuleNotFoundError: No module named 'push_file_to_github'
+[2024-12-04T22:33:46.053+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:33:46.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXml.py took 0.054 seconds
+[2024-12-04T22:34:16.683+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:34:16.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXml.py for tasks to queue
+[2024-12-04T22:34:16.706+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:34:16.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:34:16.730+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:34:16.728+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXml.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXml.py", line 2, in <module>
+    from push_file_to_github import push_file_to_github
+ModuleNotFoundError: No module named 'push_file_to_github'
+[2024-12-04T22:34:16.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:34:16.751+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXml.py took 0.072 seconds
+[2024-12-04T22:34:47.563+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:34:47.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXml.py for tasks to queue
+[2024-12-04T22:34:47.588+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:34:47.588+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:34:47.597+0000] {logging_mixin.py:190} INFO - [2024-12-04T22:34:47.595+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXml.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXml.py", line 2, in <module>
+    from push_file_to_github import push_file_to_github
+ModuleNotFoundError: No module named 'push_file_to_github'
+[2024-12-04T22:34:47.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXml.py
+[2024-12-04T22:34:47.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXml.py took 0.059 seconds
+[2024-12-04T23:32:07.816+0000] {processor.py:186} INFO - Started process (PID=305) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:32:07.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:32:07.817+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:32:07.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:32:07.832+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:32:07.830+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:32:07.833+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:32:07.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.049 seconds
+[2024-12-04T23:32:38.530+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:32:38.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:32:38.532+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:32:38.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:32:38.540+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:32:38.538+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:32:38.541+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:32:38.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.036 seconds
+[2024-12-04T23:33:09.292+0000] {processor.py:186} INFO - Started process (PID=338) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:33:09.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:33:09.293+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:33:09.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:33:09.303+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:33:09.301+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:33:09.304+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:33:09.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.028 seconds
+[2024-12-04T23:33:39.791+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:33:39.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:33:39.792+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:33:39.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:33:39.805+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:33:39.802+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:33:39.806+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:33:39.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.030 seconds
+[2024-12-04T23:35:24.579+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:35:24.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:35:24.598+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:35:24.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:35:24.627+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:35:24.619+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:35:24.629+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:35:24.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.134 seconds
+[2024-12-04T23:35:54.916+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:35:54.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:35:54.944+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:35:54.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:35:54.959+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:35:54.956+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:35:54.960+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:35:54.999+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.091 seconds
+[2024-12-04T23:36:25.720+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:25.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:36:25.734+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:36:25.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:25.748+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:36:25.744+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from push_to_github import push_to_github
+ModuleNotFoundError: No module named 'push_to_github'
+[2024-12-04T23:36:25.749+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:25.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.063 seconds
+[2024-12-04T23:36:37.098+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:37.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:36:37.100+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:36:37.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:37.115+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:36:37.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from PushToGithub import pushs_to_github
+ModuleNotFoundError: No module named 'PushToGithub'
+[2024-12-04T23:36:37.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:37.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.031 seconds
+[2024-12-04T23:36:56.249+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:56.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:36:56.250+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:36:56.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:56.264+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:36:56.261+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from PushToGithub import push_to_github
+ModuleNotFoundError: No module named 'PushToGithub'
+[2024-12-04T23:36:56.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:36:56.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.030 seconds
+[2024-12-04T23:37:09.568+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:37:09.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:37:09.570+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:37:09.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:37:09.589+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:37:09.586+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from PushToGithub import PushToGithub
+ModuleNotFoundError: No module named 'PushToGithub'
+[2024-12-04T23:37:09.591+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:37:09.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.040 seconds
+[2024-12-04T23:37:10.597+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:37:10.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:37:10.599+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:37:10.599+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:37:10.615+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:37:10.611+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from PushToGithub import PushToGithub
+ModuleNotFoundError: No module named 'PushToGithub'
+[2024-12-04T23:37:10.616+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:37:10.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.033 seconds
+[2024-12-04T23:38:03.858+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:03.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:38:03.871+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:03.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:03.884+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:03.880+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from PushToGithub import PushToGithub
+ModuleNotFoundError: No module named 'PushToGithub'
+[2024-12-04T23:38:03.885+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:03.914+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.070 seconds
+[2024-12-04T23:38:34.158+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:34.184+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:38:34.186+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:34.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:34.194+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:34.192+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from PushToGithub import PushToGithub
+ModuleNotFoundError: No module named 'PushToGithub'
+[2024-12-04T23:38:34.195+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:34.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.051 seconds
+[2024-12-04T23:38:44.721+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:44.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:38:44.809+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:44.809+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:44.824+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:44.822+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:38:44.825+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:44.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.116 seconds
+[2024-12-04T23:38:45.824+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:45.824+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:38:45.825+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:45.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:45.839+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:38:45.837+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:38:45.840+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:38:45.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.116 seconds
+[2024-12-04T23:40:26.371+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:40:26.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:40:26.408+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:26.406+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:40:26.431+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:26.422+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:40:26.433+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:40:26.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.336 seconds
+[2024-12-04T23:40:45.086+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:40:45.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:40:45.088+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:45.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:40:45.098+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:40:45.095+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:40:45.099+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:40:45.123+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.042 seconds
+[2024-12-04T23:41:15.781+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:41:15.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:41:15.784+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:15.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:41:15.796+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:15.793+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:41:15.797+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:41:15.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.041 seconds
+[2024-12-04T23:41:46.510+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:41:46.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:41:46.512+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:46.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:41:46.523+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:41:46.521+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:41:46.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:41:46.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.034 seconds
+[2024-12-04T23:42:16.977+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:42:16.999+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:42:17.001+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:17.001+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:42:17.010+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:17.008+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:42:17.011+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:42:17.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.052 seconds
+[2024-12-04T23:42:47.431+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:42:47.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:42:47.433+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:47.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:42:47.632+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:42:47.629+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:42:47.633+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:42:47.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.221 seconds
+[2024-12-04T23:43:18.146+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:43:18.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/utils/MergeAllXML.py for tasks to queue
+[2024-12-04T23:43:18.170+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:43:18.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:43:18.180+0000] {logging_mixin.py:190} INFO - [2024-12-04T23:43:18.178+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/utils/MergeAllXML.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/utils/MergeAllXML.py", line 3, in <module>
+    from .PushToGithub import PushToGithub
+ImportError: attempted relative import with no known parent package
+[2024-12-04T23:43:18.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/utils/MergeAllXML.py
+[2024-12-04T23:43:18.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/utils/MergeAllXML.py took 0.056 seconds

@@ -1,0 +1,74 @@
+[2024-12-04T19:07:19.209+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-04T19:07:19.217+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mitele_schedule_scraper.scrape_mitele_schedule manual__2024-12-04T19:07:18.217241+00:00 [queued]>
+[2024-12-04T19:07:19.222+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mitele_schedule_scraper.scrape_mitele_schedule manual__2024-12-04T19:07:18.217241+00:00 [queued]>
+[2024-12-04T19:07:19.222+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-04T19:07:19.228+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_mitele_schedule> on 2024-12-04 19:07:18.217241+00:00
+[2024-12-04T19:07:19.231+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=118) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T19:07:19.232+0000] {standard_task_runner.py:72} INFO - Started process 119 to run task
+[2024-12-04T19:07:19.233+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'mitele_schedule_scraper', 'scrape_mitele_schedule', 'manual__2024-12-04T19:07:18.217241+00:00', '--job-id', '466', '--raw', '--subdir', 'DAGS_FOLDER/dag_mitele.py', '--cfg-path', '/tmp/tmpo8331v15']
+[2024-12-04T19:07:19.234+0000] {standard_task_runner.py:105} INFO - Job 466: Subtask scrape_mitele_schedule
+[2024-12-04T19:07:19.256+0000] {task_command.py:467} INFO - Running <TaskInstance: mitele_schedule_scraper.scrape_mitele_schedule manual__2024-12-04T19:07:18.217241+00:00 [running]> on host d88abb179e8d
+[2024-12-04T19:07:19.296+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mitele_schedule_scraper' AIRFLOW_CTX_TASK_ID='scrape_mitele_schedule' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T19:07:18.217241+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-04T19:07:18.217241+00:00'
+[2024-12-04T19:07:19.296+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-04T19:07:23.893+0000] {logging_mixin.py:190} INFO - canales: dict_keys(['telecinco', 'cuatro', 'gh-24h-plus', 'gh-24h', 'mitele-en-la-calle', 'mitele-viajes', 'mitele-plus-lqsa', 'mitele-comedia', 'mitele-top-series', 'divinity', 'fdf', 'energy', 'bemad', 'boing', 'acontraplus', 'fight-sports', 'mtmad-24h'])
+[2024-12-04T19:07:24.085+0000] {logging_mixin.py:190} INFO - canales: dict_keys(['telecinco', 'cuatro', 'gh-24h-plus', 'gh-24h', 'mitele-en-la-calle', 'mitele-viajes', 'mitele-plus-lqsa', 'mitele-comedia', 'mitele-top-series', 'divinity', 'fdf', 'energy', 'bemad', 'boing', 'acontraplus', 'fight-sports', 'mtmad-24h'])
+[2024-12-04T19:07:26.685+0000] {logging_mixin.py:190} INFO - canales: dict_keys(['telecinco', 'cuatro', 'gh-24h-plus', 'gh-24h', 'mitele-en-la-calle', 'mitele-viajes', 'mitele-plus-lqsa', 'mitele-comedia', 'mitele-top-series', 'divinity', 'fdf', 'energy', 'bemad', 'boing', 'acontraplus', 'fight-sports', 'mtmad-24h'])
+[2024-12-04T19:07:26.687+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Telecinco
+[2024-12-04T19:07:26.690+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Telecinco"
+[2024-12-04T19:07:29.563+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:29.564+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Cuatro
+[2024-12-04T19:07:29.568+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Cuatro"
+[2024-12-04T19:07:31.616+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:31.617+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh 24h plus
+[2024-12-04T19:07:31.621+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Gh 24h plus"
+[2024-12-04T19:07:33.455+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:33.456+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Gh 24h
+[2024-12-04T19:07:33.458+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Gh 24h"
+[2024-12-04T19:07:35.321+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:35.322+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele en la calle
+[2024-12-04T19:07:35.325+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele en la calle"
+[2024-12-04T19:07:37.179+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:37.180+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele viajes
+[2024-12-04T19:07:37.185+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele viajes"
+[2024-12-04T19:07:39.054+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:39.055+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele plus lqsa
+[2024-12-04T19:07:39.057+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele plus lqsa"
+[2024-12-04T19:07:40.963+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:40.963+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele comedia
+[2024-12-04T19:07:40.967+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele comedia"
+[2024-12-04T19:07:42.867+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:42.868+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mitele top series
+[2024-12-04T19:07:42.872+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mitele top series"
+[2024-12-04T19:07:44.764+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:44.765+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Divinity
+[2024-12-04T19:07:44.770+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Divinity"
+[2024-12-04T19:07:46.801+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:46.801+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fdf
+[2024-12-04T19:07:46.805+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Fdf"
+[2024-12-04T19:07:48.756+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:48.757+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Energy
+[2024-12-04T19:07:48.760+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Energy"
+[2024-12-04T19:07:50.828+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:50.829+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Bemad
+[2024-12-04T19:07:50.832+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Bemad"
+[2024-12-04T19:07:52.796+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:52.796+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Boing
+[2024-12-04T19:07:52.802+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Boing"
+[2024-12-04T19:07:54.921+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:54.921+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Acontraplus
+[2024-12-04T19:07:54.924+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Acontraplus"
+[2024-12-04T19:07:56.803+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:56.804+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Fight sports
+[2024-12-04T19:07:56.808+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Fight sports"
+[2024-12-04T19:07:58.673+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:07:58.674+0000] {logging_mixin.py:190} INFO - Generando XML para el canal Mtmad 24h
+[2024-12-04T19:07:58.676+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Mtmad 24h"
+[2024-12-04T19:08:00.493+0000] {logging_mixin.py:190} INFO - [INFO] Archivo subido correctamente
+[2024-12-04T19:08:00.494+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-04T19:08:00.500+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-04T19:08:00.500+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=mitele_schedule_scraper, task_id=scrape_mitele_schedule, run_id=manual__2024-12-04T19:07:18.217241+00:00, execution_date=20241204T190718, start_date=20241204T190719, end_date=20241204T190800
+[2024-12-04T19:08:00.526+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-04T19:08:00.535+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T19:08:00.537+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,22 @@
+[2024-12-06T14:18:38.854+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T14:18:38.862+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.scrape_telemadrid_schedule scheduled__2016-06-05T13:14:00+00:00 [queued]>
+[2024-12-06T14:18:38.867+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: telemadrid_schedule_scraper_v2.scrape_telemadrid_schedule scheduled__2016-06-05T13:14:00+00:00 [queued]>
+[2024-12-06T14:18:38.867+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 5
+[2024-12-06T14:18:38.874+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): scrape_telemadrid_schedule> on 2016-06-05 13:14:00+00:00
+[2024-12-06T14:18:38.878+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1500) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T14:18:38.879+0000] {standard_task_runner.py:72} INFO - Started process 1509 to run task
+[2024-12-06T14:18:38.879+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'telemadrid_schedule_scraper_v2', 'scrape_telemadrid_schedule', 'scheduled__2016-06-05T13:14:00+00:00', '--job-id', '1650', '--raw', '--subdir', 'DAGS_FOLDER/dag_telemadrid_v2.py', '--cfg-path', '/tmp/tmp9xaxg09b']
+[2024-12-06T14:18:38.881+0000] {standard_task_runner.py:105} INFO - Job 1650: Subtask scrape_telemadrid_schedule
+[2024-12-06T14:18:38.908+0000] {task_command.py:467} INFO - Running <TaskInstance: telemadrid_schedule_scraper_v2.scrape_telemadrid_schedule scheduled__2016-06-05T13:14:00+00:00 [running]> on host 6b4257da02f0
+[2024-12-06T14:18:38.953+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='telemadrid_schedule_scraper_v2' AIRFLOW_CTX_TASK_ID='scrape_telemadrid_schedule' AIRFLOW_CTX_EXECUTION_DATE='2016-06-05T13:14:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2016-06-05T13:14:00+00:00'
+[2024-12-06T14:18:38.954+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T14:18:39.156+0000] {logging_mixin.py:190} INFO - Escrito el xmltv del canal "Telemadrid"
+[2024-12-06T14:18:42.259+0000] {logging_mixin.py:190} INFO - Error: 422 {"message": "Invalid request.\n\n\"sha\" wasn't supplied.", "documentation_url": "https://docs.github.com/rest/repos/contents#create-or-update-file-contents", "status": "422"}
+[2024-12-06T14:18:42.259+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T14:18:42.265+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T14:18:42.265+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=telemadrid_schedule_scraper_v2, task_id=scrape_telemadrid_schedule, run_id=scheduled__2016-06-05T13:14:00+00:00, execution_date=20160605T131400, start_date=20241206T141838, end_date=20241206T141842
+[2024-12-06T14:18:42.300+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T14:18:42.313+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T14:18:42.314+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

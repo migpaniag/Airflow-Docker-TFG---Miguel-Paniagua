@@ -1,0 +1,414 @@
+[2024-12-05T23:14:07.785+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:14:07.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:14:07.788+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:07.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:14:08.065+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:14:08.155+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.155+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:mediaset_schedule_scraper
+[2024-12-05T23:14:08.160+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.160+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:mediaset_schedule_scraper
+[2024-12-05T23:14:08.164+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.164+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:mediaset_schedule_scraper
+[2024-12-05T23:14:08.169+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.169+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:mediaset_schedule_scraper
+[2024-12-05T23:14:08.173+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.173+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:mediaset_schedule_scraper
+[2024-12-05T23:14:08.177+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.177+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:mediaset_schedule_scraper
+[2024-12-05T23:14:08.180+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.180+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:mediaset_schedule_scraper
+[2024-12-05T23:14:08.181+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:14:08.187+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.187+0000] {dag.py:3262} INFO - Creating ORM DAG for mediaset_schedule_scraper
+[2024-12-05T23:14:08.192+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:08.192+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:14:08.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.421 seconds
+[2024-12-05T23:14:39.090+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:14:39.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:14:39.092+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:39.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:14:39.207+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:14:39.270+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:39.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:14:39.281+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:14:39.281+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:14:39.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.206 seconds
+[2024-12-05T23:15:09.963+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:15:09.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:15:09.965+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:09.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:15:10.069+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:15:10.130+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:10.130+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:15:10.142+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:10.141+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:15:10.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.193 seconds
+[2024-12-05T23:15:40.869+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:15:40.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:15:40.871+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:40.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:15:41.321+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:15:41.379+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:41.379+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:15:41.392+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:15:41.392+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:15:41.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.535 seconds
+[2024-12-05T23:17:15.438+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:17:15.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:17:15.440+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:15.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:17:15.699+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:17:15.785+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:15.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:17:15.798+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:15.798+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:17:15.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.373 seconds
+[2024-12-05T23:17:46.711+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:17:46.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:17:46.717+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:46.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:17:46.822+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:17:46.882+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:46.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:17:46.895+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:17:46.895+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:17:46.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.198 seconds
+[2024-12-05T23:18:17.448+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:18:17.449+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:18:17.449+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:17.449+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:18:17.544+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:18:17.601+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:17.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:18:17.612+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:17.612+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:18:17.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.177 seconds
+[2024-12-05T23:18:48.330+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:18:48.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:18:48.331+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:48.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:18:48.432+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:18:48.492+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:48.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:18:48.504+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:18:48.504+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:18:48.515+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.188 seconds
+[2024-12-05T23:19:19.083+0000] {processor.py:186} INFO - Started process (PID=137) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:19:19.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:19:19.084+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:19.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:19:19.187+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:19:19.251+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:19.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:19:19.262+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:19.262+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:19:19.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.192 seconds
+[2024-12-05T23:19:50.006+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:19:50.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:19:50.008+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:50.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:19:50.104+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:19:50.162+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:50.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:19:50.177+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:19:50.177+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:19:50.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.183 seconds
+[2024-12-05T23:20:20.923+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:20:20.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:20:20.924+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:20.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:20:21.024+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:20:21.084+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:21.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:20:21.096+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:21.096+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:20:21.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.186 seconds
+[2024-12-05T23:20:51.826+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:20:51.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:20:51.827+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:51.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:20:51.926+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:20:51.983+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:51.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:20:51.994+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:20:51.994+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:20:52.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:21:22.740+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:21:22.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:21:22.741+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:22.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:21:22.840+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:21:22.897+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:22.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:21:22.909+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:22.909+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:21:22.918+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:21:53.655+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:21:53.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:21:53.656+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:53.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:21:53.755+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:21:53.815+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:53.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:21:53.827+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:21:53.826+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:21:53.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.185 seconds
+[2024-12-05T23:22:24.767+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:22:24.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:22:24.768+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:24.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:22:24.867+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:22:24.925+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:24.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:22:24.937+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:24.937+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:22:24.946+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.182 seconds
+[2024-12-05T23:22:55.683+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:22:55.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:22:55.684+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:55.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:22:55.786+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:22:55.843+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:55.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:22:55.854+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:22:55.854+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:22:55.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.184 seconds
+[2024-12-05T23:23:26.596+0000] {processor.py:186} INFO - Started process (PID=245) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:23:26.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:23:26.597+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:26.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:23:26.694+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:23:26.752+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:26.752+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:23:26.763+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:26.763+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:23:26.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:23:57.509+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:23:57.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:23:57.511+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:57.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:23:57.613+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:23:57.670+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:57.670+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:23:57.682+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:23:57.682+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:23:57.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.186 seconds
+[2024-12-05T23:24:28.434+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:24:28.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:24:28.436+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:28.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:24:28.533+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:24:28.590+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:28.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:24:28.601+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:28.601+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:24:28.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.179 seconds
+[2024-12-05T23:24:59.331+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:24:59.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:24:59.333+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:59.332+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:24:59.431+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:24:59.492+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:59.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:24:59.504+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:24:59.504+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:24:59.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.186 seconds
+[2024-12-05T23:25:30.220+0000] {processor.py:186} INFO - Started process (PID=297) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:25:30.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:25:30.221+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:30.221+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:25:30.325+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:25:30.382+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:30.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:25:30.395+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:25:30.395+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:25:30.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.189 seconds
+[2024-12-05T23:26:01.138+0000] {processor.py:186} INFO - Started process (PID=310) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:26:01.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:26:01.139+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:01.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:26:01.242+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:26:01.302+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:01.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:26:01.313+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:01.313+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:26:01.323+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.188 seconds
+[2024-12-05T23:26:32.053+0000] {processor.py:186} INFO - Started process (PID=323) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:26:32.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:26:32.055+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:32.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:26:32.152+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:26:32.210+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:32.210+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:26:32.221+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:26:32.221+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:26:32.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.180 seconds
+[2024-12-05T23:27:02.951+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:27:02.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:27:02.953+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:02.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:27:03.050+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:27:03.108+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:03.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:27:03.119+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:03.119+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:27:03.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:27:34.017+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:27:34.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:27:34.018+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:34.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:27:34.114+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:27:34.172+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:34.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:27:34.184+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:27:34.184+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:27:34.194+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:28:04.933+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:28:04.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:28:04.934+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:04.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:28:05.030+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:28:05.088+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:05.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:28:05.100+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:05.100+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:28:05.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.180 seconds
+[2024-12-05T23:28:35.846+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:28:35.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:28:35.847+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:35.847+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:28:35.944+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:28:36.002+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:36.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:28:36.013+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:28:36.013+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:28:36.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.182 seconds
+[2024-12-05T23:29:06.758+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:29:06.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:29:06.759+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:06.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:29:06.857+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:29:06.914+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:06.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:29:06.926+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:06.926+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:29:06.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.182 seconds
+[2024-12-05T23:29:37.678+0000] {processor.py:186} INFO - Started process (PID=401) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:29:37.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:29:37.679+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:37.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:29:37.781+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:29:37.839+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:37.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:29:37.850+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:29:37.850+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:29:37.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.184 seconds
+[2024-12-05T23:30:08.594+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:30:08.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:30:08.595+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:30:08.696+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:30:08.753+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:30:08.764+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:08.764+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:30:08.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.184 seconds
+[2024-12-05T23:30:39.495+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:30:39.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:30:39.496+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:39.496+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:30:39.594+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:30:39.654+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:39.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:30:39.665+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:30:39.665+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:30:39.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.182 seconds
+[2024-12-05T23:31:10.239+0000] {processor.py:186} INFO - Started process (PID=440) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:31:10.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:31:10.241+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:10.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:31:10.339+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:31:10.396+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:10.395+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:31:10.407+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:10.407+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:31:10.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:31:41.143+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:31:41.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:31:41.144+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:41.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:31:41.244+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:31:41.301+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:41.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:31:41.312+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:31:41.312+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:31:41.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.181 seconds
+[2024-12-05T23:32:12.057+0000] {processor.py:186} INFO - Started process (PID=466) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:32:12.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:32:12.058+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:12.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:32:12.155+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:32:12.214+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:12.214+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:32:12.225+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:12.224+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:32:12.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.180 seconds
+[2024-12-05T23:32:43.139+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:32:43.139+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:32:43.140+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:43.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:32:43.239+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:32:43.300+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:43.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:32:43.312+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:32:43.311+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:32:43.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.186 seconds
+[2024-12-05T23:33:14.060+0000] {processor.py:186} INFO - Started process (PID=492) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:33:14.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:33:14.061+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:14.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:33:14.179+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:33:14.239+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:14.238+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:33:14.250+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:14.250+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:33:14.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.203 seconds
+[2024-12-05T23:33:44.997+0000] {processor.py:186} INFO - Started process (PID=505) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:33:44.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:33:44.999+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:44.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:33:45.100+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:33:45.162+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:45.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:33:45.174+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:33:45.174+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:33:45.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.190 seconds
+[2024-12-05T23:34:15.921+0000] {processor.py:186} INFO - Started process (PID=518) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:34:15.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:34:15.923+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:15.922+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:34:16.022+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:34:16.080+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:16.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:34:16.091+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:16.091+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:34:16.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.183 seconds
+[2024-12-05T23:34:46.844+0000] {processor.py:186} INFO - Started process (PID=531) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:34:46.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:34:46.846+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:46.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:34:46.943+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:34:47.001+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:47.000+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:34:47.012+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:34:47.012+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:34:47.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.180 seconds
+[2024-12-05T23:35:17.751+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:35:17.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:35:17.752+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:17.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:35:17.853+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:35:17.911+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:17.911+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:35:17.922+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:17.922+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:35:17.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.185 seconds
+[2024-12-05T23:35:48.684+0000] {processor.py:186} INFO - Started process (PID=563) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:35:48.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:35:48.685+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:48.685+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:35:48.785+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:35:48.843+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:48.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:35:48.854+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:35:48.854+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:35:48.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.183 seconds
+[2024-12-05T23:36:19.602+0000] {processor.py:186} INFO - Started process (PID=576) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:36:19.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:36:19.603+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:19.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:36:19.703+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:36:19.764+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:19.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:36:19.776+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:19.776+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:36:19.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.187 seconds
+[2024-12-05T23:36:50.517+0000] {processor.py:186} INFO - Started process (PID=589) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:36:50.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:36:50.518+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:50.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:36:50.616+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:36:50.678+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:50.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:36:50.690+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:36:50.690+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:36:50.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.186 seconds
+[2024-12-05T23:37:21.562+0000] {processor.py:186} INFO - Started process (PID=602) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:37:21.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:37:21.563+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:21.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:37:21.672+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:37:21.735+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:21.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:37:21.747+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:21.747+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:37:21.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.199 seconds
+[2024-12-05T23:37:52.502+0000] {processor.py:186} INFO - Started process (PID=615) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:37:52.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:37:52.503+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:52.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:37:52.606+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:37:52.668+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:52.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:37:52.679+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:37:52.679+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:37:52.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.190 seconds
+[2024-12-05T23:38:23.422+0000] {processor.py:186} INFO - Started process (PID=628) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:38:23.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:38:23.423+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:23.423+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:38:23.523+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:38:23.586+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:23.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:38:23.598+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:23.598+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:38:23.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.191 seconds
+[2024-12-05T23:38:54.363+0000] {processor.py:186} INFO - Started process (PID=641) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:38:54.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:38:54.365+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:54.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:38:54.468+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:38:54.529+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:54.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:38:54.542+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:38:54.541+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:38:54.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.191 seconds
+[2024-12-05T23:39:25.303+0000] {processor.py:186} INFO - Started process (PID=654) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:39:25.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:39:25.305+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:25.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:39:25.403+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:39:25.461+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:25.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:39:25.473+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:25.473+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:39:25.484+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.184 seconds
+[2024-12-05T23:39:56.222+0000] {processor.py:186} INFO - Started process (PID=667) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:39:56.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:39:56.223+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:56.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:39:56.322+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:39:56.382+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:56.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:39:56.393+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:39:56.393+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:39:56.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.185 seconds
+[2024-12-05T23:40:27.140+0000] {processor.py:186} INFO - Started process (PID=680) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:40:27.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:40:27.141+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:27.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:40:27.238+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:40:27.296+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:27.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:40:27.307+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:27.307+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:40:27.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.180 seconds
+[2024-12-05T23:40:58.082+0000] {processor.py:186} INFO - Started process (PID=693) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:40:58.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:40:58.083+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:58.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:40:58.181+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:40:58.244+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:58.243+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:40:58.256+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:40:58.255+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:40:58.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.188 seconds
+[2024-12-05T23:41:29.011+0000] {processor.py:186} INFO - Started process (PID=706) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:41:29.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:41:29.012+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:29.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:41:29.109+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:41:29.167+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:29.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:41:29.178+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:29.178+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:41:29.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.182 seconds
+[2024-12-05T23:41:59.930+0000] {processor.py:186} INFO - Started process (PID=719) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:41:59.930+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:41:59.931+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:41:59.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:42:00.032+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:42:00.093+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:00.092+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:42:00.105+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:00.105+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:42:00.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.187 seconds
+[2024-12-05T23:42:31.005+0000] {processor.py:186} INFO - Started process (PID=732) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:42:31.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:42:31.006+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:31.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:42:31.104+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:42:31.162+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:31.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:42:31.174+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:42:31.174+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:42:31.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.182 seconds
+[2024-12-05T23:43:01.917+0000] {processor.py:186} INFO - Started process (PID=745) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:43:01.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:43:01.918+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:01.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:43:02.021+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:43:02.081+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:02.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:43:02.094+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:02.094+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:43:02.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.192 seconds
+[2024-12-05T23:43:32.856+0000] {processor.py:186} INFO - Started process (PID=758) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:43:32.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:43:32.857+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:32.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:43:32.955+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:43:33.014+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:33.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:43:33.028+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:43:33.027+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:43:33.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.186 seconds
+[2024-12-05T23:59:17.768+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:59:17.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:59:17.770+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:17.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:59:17.967+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:59:18.024+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:18.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:59:18.035+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:18.035+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:59:18.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.280 seconds
+[2024-12-05T23:59:49.019+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:59:49.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_mediaset.py for tasks to queue
+[2024-12-05T23:59:49.021+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:49.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:59:49.121+0000] {processor.py:925} INFO - DAG(s) 'mediaset_schedule_scraper' retrieved from /opt/airflow/dags/dag_mediaset.py
+[2024-12-05T23:59:49.177+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:49.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-05T23:59:49.188+0000] {logging_mixin.py:190} INFO - [2024-12-05T23:59:49.188+0000] {dag.py:4180} INFO - Setting next_dagrun for mediaset_schedule_scraper to 2024-12-06 08:00:00+00:00, run_after=2024-12-07 08:00:00+00:00
+[2024-12-05T23:59:49.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_mediaset.py took 0.183 seconds
